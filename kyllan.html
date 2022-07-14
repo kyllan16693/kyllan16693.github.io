@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script>
+    /* Start time to calculate page render time */
+    var startTime = performance.now()
+</script>
+
+<head>
+    <title>Kyllan Wunder</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        /* Style the body */
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        /* Header/Logo Title */
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: #1abc9c;
+            color: white;
+            font-size: 30px;
+        }
+
+        /* Page Content */
+        .content {
+            padding: 20px;
+        }
+
+        /* Style the top navigation bar */
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+            display: flex;
+        }
+
+        /* Style the topnav links */
+        .topnav a {
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change color on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Kyllan Wunder</h1>
+    </div>
+
+    <div class="topnav">
+        <a href="home.html" title="Go to Home" style="width: 25%;">Home</a>
+        <a href="projects.html" title="Go to Projects" style="width: 25%;">Projects</a>
+        <a href="links.html" title="Go to Links" style="width: 25%;">Links</a>
+        <a href="resume.html" title="Go to Resume" style="width: 25%">Resume</a>
+    </div>
+
+
+    <div class="content">
+        <table class="mainPageContent" style="width:100%;  border: 1px solid; border-collapse: collapse;">
+            <tr>
+                <th style="width:50%; border: 1px solid; border-collapse: collapse;">
+                    <h1>About</h1>
+                    <img src="KyllanWunderUWMadison.jpeg" alt="Kyllan Wunder UW Madison"
+                        style="max-width: 40%;  max-height: 40%; float:left; margin: 10px;">
+                    <p align="left">Kyllan Wunder is an undergraduate at the University of Wisconsin Madison working
+                        towards a Batchelor's Degree in Computer Science. UW Madison currently employs him as an
+                        undergraduate researcher looking into COVID-19 particles in wastewater from all over Wisconsin
+                        and the department of Statistics IT helpdesk.</p>
+                </th>
+                <th style="width:50%; border: 1px solid; border-collapse: collapse;">
+                    <h1>Most Recent Project</h1>
+                    <p>Some content blablabla, some content blablabla.</p>
+                    <p>Some content blablabla, some content blablabla.</p>
+                    <p>Some content blablabla, some content blablabla.</p>
+                </th>
+            </tr>
+        </table>
+    </div>
+
+    <style>
+        .footer {
+
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #1abc9c;
+            color: white;
+            text-align: center;
+        }
+    </style>
+
+    <div class="footer">
+        <p align="center">Stats for nerds:</p>
+        <div id="sfc8l79nqgmptru5uym9kylptgbfpfmpcnw" align="center"></div>
+        <script type="text/javascript"
+            src="https://counter9.stat.ovh/private/counter.js?c=8l79nqgmptru5uym9kylptgbfpfmpcnw&down=async"
+            async></script><br><noscript><a href="https://www.freecounterstat.com" title="free web counter"><img
+                    src="https://counter9.stat.ovh/private/freecounterstat.php?c=8l79nqgmptru5uym9kylptgbfpfmpcnw"
+                    border="0" title="free web counter" alt="free web counter"></a></noscript>
+        <p id="renderTime"></p>
+        <script>
+            var endTime = performance.now()
+            document.getElementById("renderTime").innerHTML = `Page rendered in ${endTime - startTime} milliseconds`;
+        </script>
+    </div>
+
+</body>
+
+</html>
