@@ -73,15 +73,34 @@
         <table class="mainPageContent" style="width:100%;  border: 1px solid; border-collapse: collapse;">
             <tr>
                 <th style="width:50%; border: 1px solid; border-collapse: collapse;">
-                    <h1>About</h1>
-                    <img src="KyllanWunderUWMadison.jpeg" alt="Kyllan Wunder UW Madison"
-                        style="max-width: 40%;  max-height: 40%; float:left; margin: 10px;">
-                    <p text-align="center" style="margin-left: 5%; margin-right: 5%;">Kyllan Wunder is an undergraduate at the University of Wisconsin Madison working
+                    <div class="aboutme">
+                    <img src="KyllanWunderUWMadison.jpeg" alt="Kyllan Wunder UW Madison" style="max-width: 100%;  max-height: 100%;">
+    
+                    <p class="text" >Kyllan Wunder is an undergraduate at the University of Wisconsin Madison working
                         towards a Batchelor's Degree in Computer Science. UW Madison currently employs him as an
                         undergraduate researcher looking into COVID-19 particles in wastewater from all over Wisconsin
                         and the department of Statistics IT helpdesk. He is Planning on attending gratuate school to become a 
                         data scientist.</p>
-                </th>
+                
+                    </div>
+                <style>
+                    .aboutme {
+                        position: relative;
+                        text-align: center;
+                        color: white;
+                        
+                    }
+    
+                    .text {
+                        position: absolute;
+                        top: 1px;
+                        left: 8px;
+                        text-align: left;
+                        
+                    }
+                </style>
+                
+                    </th>
                 <th style="width:50%; border: 1px solid; border-collapse: collapse;">
                     <h1>Current Research: COVID-19 Wastewater</h1>
                     <img src="covid-droplet.svg" alt="COVID-19 Droplet" style="max-width: 20%;  max-height: 20%; float:right; margin: 10px;">
