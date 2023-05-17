@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script type='text/javascript'
+            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
+    async defer></script>
+
+</head>
+<body>
+    <p>You connected to this website at:</p>
+    <span class="local"></span>
+    <p>and your current time is:</p>
+    <span class="localinc"></span>
+    <p>and your timezone is:</p>
+    <span class="timezone"></span>
+    <p>Click the button to get your coordinates.</p>
+    <button onclick="getLocation()">Try It</button>
+    <p id="loc"></p>
+    <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
+    <script src="jstz.min.js"></script>
+    <script src="thiswebsiteisscary.js"></script>
+</body>
+</html>
