@@ -113,146 +113,135 @@
 
     <style>
         /* Footer Styles */
-.footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #1abc9c;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
+        .footer {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #1abc9c;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
 
-/* Footer Content */
-.footer-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+        /* Footer Content */
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-/* Counter and Render Time Styles */
-.counter,
-.rendertimediv {
-    padding: 10px;
-}
+        /* Counter and Render Time Styles */
+        .counter,
+        .rendertimediv {
+            padding: 10px;
+        }
 
-/* Table Styles */
-table {
-    width: 50%;
-    border-collapse: collapse;
-}
+        /* Table Styles */
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
 
-td {
-    border: none;
-    padding: 10px;
-}
+        td {
+            border: none;
+            padding: 10px;
+        }
 
-/* Button Styles */
-.theme-button {
-    border: none;
-    padding: 8px 16px;
-    cursor: pointer;
-    border-radius: 4px;
-    font-size: 14px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-
-
-
-
-
+        /* Button Styles */
+        .theme-button {
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 14px;
+            transition: background-color 0.3s, color 0.3s;
+        }
     </style>
 
-<div class="footer">
-    <div class="footer-title">
-        <p>Stats for nerds:</p>
-    </div>
-    <div class="footer-content">
-        <table>
-            <tr>
-                <td class="counter">
-                    <div id="sfc8l79nqgmptru5uym9kylptgbfpfmpcnw" align="center"></div>
-                    <script type="text/javascript"
-                        src="https://counter9.stat.ovh/private/counter.js?c=8l79nqgmptru5uym9kylptgbfpfmpcnw&down=async"
-                        async></script>
-                </td>
-                <td class="rendertimediv">
-                    <p id="renderTime"></p>
-                    <script>
-                        var endTime = performance.now();
-                        document.getElementById("renderTime").innerHTML = `Page rendered in <br> ${endTime - startTime} milliseconds`;
-                    </script>
-                </td>
-                <td class="theme-toggle">
-                    <style>
-                        body {
-                            --bg-color: #fff;
-                            --text-color: #000;
-                            --link-color: #1abc9c;
-                            --link-hover-color: #000;
-                            --button-color: #1abc9c;
-                            --button-hover-color: #000;
-                        }
-
-                        body.dark {
-                            --bg-color: #000;
-                            --text-color: #fff;
-                            --link-color: #1abc9c;
-                            --link-hover-color: #fff;
-                            --button-color: #1abc9c;
-                            --button-hover-color: #fff;
-                        }
-
-                        body {
-                            background-color: var(--bg-color);
-                            color: var(--text-color);
-                        }
-
-                        a {
-                            color: var(--link-color);
-                        }
-
-                        a:hover {
-                            color: var(--link-hover-color);
-                        }
-
-                        .theme-button {
-                            background-color: var(--button-color);
-                            color: var(--text-color);
-                        }
-
-                        .theme-button:hover {
-                            background-color: var(--button-hover-color);
-                            color: var(--text-color);
-                        }
-
-                    </style>
-
-                    <button id="themeToggle" class="theme-button">Dark Mode</button>
-                    <script>
-                        const themeToggle = document.getElementById('themeToggle');
-                        const body = document.body;
-                        themeToggle.onclick = () => {
-                            if (body.classList.contains('dark')) {
-                                body.classList.remove('dark');
-                                themeToggle.innerText = ' Dark Mode';
-                            } else {
-                                body.classList.add('dark');
-                                themeToggle.innerText = ' Light Mode';
+    <div class="footer">
+        <div class="footer-title">
+            <p>Stats for nerds:</p>
+        </div>
+        <div class="footer-content">
+            <table>
+                <tr>
+                    <td class="counter">
+                        <div id="sfc8l79nqgmptru5uym9kylptgbfpfmpcnw" align="center"></div>
+                        <script type="text/javascript"
+                            src="https://counter9.stat.ovh/private/counter.js?c=8l79nqgmptru5uym9kylptgbfpfmpcnw&down=async"
+                            async></script>
+                    </td>
+                    <td class="rendertimediv">
+                        <p id="renderTime"></p>
+                        <script>
+                            var endTime = performance.now();
+                            document.getElementById("renderTime").innerHTML = `Page rendered in <br> ${endTime - startTime} milliseconds`;
+                        </script>
+                    </td>
+                    <td class="theme-toggle">
+                        <style>
+                            body {
+                                --bg-color: #fff;
+                                --text-color: #000;
+                                --link-color: #1abc9c;
+                                --link-hover-color: #000;
+                                --button-color: #1abc9c;
+                                --button-hover-color: #000;
                             }
-                        }
-                    </script>
-                </td>
-            </tr>
-        </table>
+
+                            body.dark {
+                                --bg-color: #000;
+                                --text-color: #fff;
+                                --link-color: #1abc9c;
+                                --link-hover-color: #fff;
+                                --button-color: #1abc9c;
+                                --button-hover-color: #fff;
+                            }
+
+                            body {
+                                background-color: var(--bg-color);
+                                color: var(--text-color);
+                            }
+
+                            a {
+                                color: var(--link-color);
+                            }
+
+                            a:hover {
+                                color: var(--link-hover-color);
+                            }
+
+                            .theme-button {
+                                background-color: var(--button-color);
+                                color: var(--text-color);
+                            }
+
+                            .theme-button:hover {
+                                background-color: var(--button-hover-color);
+                                color: var(--text-color);
+                            }
+                        </style>
+
+                        <button id="themeToggle" class="theme-button">Dark Mode</button>
+                        <script>
+                            const themeToggle = document.getElementById('themeToggle');
+                            const body = document.body;
+                            themeToggle.onclick = () => {
+                                if (body.classList.contains('dark')) {
+                                    body.classList.remove('dark');
+                                    themeToggle.innerText = ' Dark Mode';
+                                } else {
+                                    body.classList.add('dark');
+                                    themeToggle.innerText = ' Light Mode';
+                                }
+                            }
+                        </script>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
-</div>
-
-
-
-
 
 </body>
 

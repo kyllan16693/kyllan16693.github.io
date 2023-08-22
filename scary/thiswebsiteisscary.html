@@ -1,25 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <title></title>
     <meta charset="utf-8" />
-    <script type='text/javascript'
-            src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap'
-    async defer></script>
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
 
 </head>
+
 <body>
-    <p>You connected to this website at:</p>
-    <span class="local"></span>
-    <p>and your current time is:</p>
-    <span class="localinc"></span>
-    <p>and your timezone is:</p>
-    <span class="timezone"></span>
-    <p>Click the button to get your coordinates.</p>
+    <h1>This website is scary</h1>
+    <h2>Here's why:</h2>
+    <h3>Time</h3>
+    <p>You connected to this website at: <span class="local"></span> </p>
+    <p> and your current time is: <span class="localinc"></span> </p>
+    <p>and your timezone is: <span class="timezone"></span> </p>
+    <h3>IP address</h3>
+    <div id="ipAddr"></div>
+    <div id="browser"></div>
+    <h3>Location</h3>
+    <p>General location:</p>
+    <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
+    <p>Click the button to get your exact coordinates.</p>
     <button onclick="getLocation()">Try It</button>
     <p id="loc"></p>
-    <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
     <script src="jstz.min.js"></script>
     <script src="thiswebsiteisscary.js"></script>
 </body>
+
 </html>
