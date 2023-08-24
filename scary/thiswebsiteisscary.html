@@ -1,31 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <title></title>
-    <meta charset="utf-8" />
-    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap' async defer></script>
+<script>
+    /* Start time to calculate page render time */
+    var startTime = performance.now()
+</script>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scary Website</title>
+    <link rel="stylesheet" href="thiswebsiteisscary.css">
+    <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=initializeMap' async defer></script>
+    <script src="jstz.min.js"></script>
+    <script src="thiswebsiteisscary.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../favicon_io/site.webmanifest">
 </head>
 
 <body>
-    <h1>This website is scary</h1>
-    <h2>Here's why:</h2>
-    <h3>Time</h3>
-    <p>You connected to this website at: <span class="local"></span> </p>
-    <p> and your current time is: <span class="localinc"></span> </p>
-    <p>and your timezone is: <span class="timezone"></span> </p>
-    <h3>IP address</h3>
-    <div id="ipAddr"></div>
-    <div id="browser"></div>
-    <h3>Location</h3>
-    <p>General location:</p>
-    <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
-    <p>Click the button to get your exact coordinates.</p>
-    <button onclick="getLocation()">Try It</button>
-    <p id="loc"></p>
+    <header>
+        <h1>Every website is scary</h1>
+        <h2>Heres why:</h2>
+        <p id="topP">Everytime you visit a website, you are giving away information about yourself. This information can be used to track you, and to build a profile of you. This profile can be used to target you with ads, and to sell your information to other companies. All of the information you see right now is stored on your computer locally, but other sites might not be as nice.</p>
+    </header>
+    <section id="time-section">
+        <h3>Your Time</h3>
+        <p>Accessed this website at: <span class="local"></span></p>
+        <p>Current time is: <span class="localinc"></span></p>
+        <p>Timezone: <span class="timezone"></span></p>
+    </section>
+    <section id="ip-section">
+        <h3>Your Public IP address</h3>
+        <div id="ipAddr"></div>
+    </section>
+    <section id="browser-section">
+        <div id="browser"></div>
+    </section>
+    <section id="location-section">
+        <h3>Your Location</h3>
+        <p>General location:</p>
+        <div id="myMap"></div>
+        <p>Click the button to get your <b>exact</b> coordinates.</p>
+        <button id="location-button">Try It</button>
+        <p id="loc"></p>
+    </section>
     <script src="jstz.min.js"></script>
     <script src="thiswebsiteisscary.js"></script>
 </body>
+
+<div class="footer">
+    <p >Stats for nerds:</p>
+    <div id="sfc8l79nqgmptru5uym9kylptgbfpfmpcnw" ></div>
+    <script type="text/javascript"
+        src="https://counter9.stat.ovh/private/counter.js?c=8l79nqgmptru5uym9kylptgbfpfmpcnw&down=async"
+        async></script><br><noscript><a href="https://www.freecounterstat.com" title="free web counter"><img
+                src="https://counter9.stat.ovh/private/freecounterstat.php?c=8l79nqgmptru5uym9kylptgbfpfmpcnw"
+                title="free web counter" alt="free web counter"></a></noscript>
+    <p id="renderTime"></p>
+    <script>
+        var endTime = performance.now()
+        document.getElementById("renderTime").innerHTML = `Page rendered in ${endTime - startTime} milliseconds`;
+    </script>
+</div>
 
 </html>
