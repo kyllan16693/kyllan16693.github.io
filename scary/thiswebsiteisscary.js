@@ -72,11 +72,9 @@ browser.innerHTML =
     "Device Memory: " + navigator.deviceMemory + " GB" +
     "<br>CPU Cores: " + navigator.hardwareConcurrency +
     "<br>GPU: " + ((navigator.gpu == undefined) ? navigator.gpu.renderer : "WebGL not supported") +
-    // 0 if no touch screen
     "<br>Max Touch Points: " + navigator.maxTouchPoints +  ((navigator.maxTouchPoints == 0) ? " (no touch screen)" : "(touch screen)") +
     "<h3>Other</h3>" +
     "OnLine: " + navigator.onLine +
-    //if smooth then high refresh rate monitor, if powerEfficient then most likely a laptop
     "<br>MediaCapabilities: " + navigator.MediaCapabilities + 
     "<br>pdfViewerEnabled: " + navigator.pdfViewerEnabled +
     "<br>presentation: " + navigator.presentation;
