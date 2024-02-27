@@ -1,0 +1,9 @@
+# MagicMirror<sup>2</sup>
+#### Febuary 2023
+
+With a spare Raspberry Pi I had laying around I breathed new life into an old broken monitor with <a href="https://magicmirror.builders/" target="_blank" rel="noopener noreferrer">MagicMirror<sup>2</sup></a>. The setup was super easy with the well detailed inscructions on the website and git repo. The monitor I used had some verticle black lines but with the monitor on its side I was able to hide them by not putting any elements in that area. This monitor also has built in USB ports so I am able to power the pi from the monitor, so the whole thing only needs one power cable. I currently have the base packages installed (Time and Date, Calendar, Weather, News Feed, and Compliments), along with a Canvas element that shows upcoming assignments from my school's Canvas website. I also have a custom module that shows the a picture of a QR code that I generated to automatically connect to my home wifi<a href="https://qifi.org/" target="_blank" rel="noopener noreferrer"> (made here)</a>. I also have a ping tool installed which pings google, cloudflare, and my NAS to check the status. Current modules I am using:
+
+- <a href="https://github.com/chase-cromwell/MMM-Canvas" target="_blank" rel="noopener noreferrer">MMM-Canvas</a> - Upcoming Canvas assignments
+- <a href="https://github.com/AdamMoses-GitHub/MMM-ImageSlideshow" target="_blank" rel="noopener noreferrer">MMM-ImageSlideshow</a> - QR code to connect to my home network using [qifi.org](https://qifi.org/)
+- <a href="https://github.com/fewieden/MMM-ping" target="_blank" rel="noopener noreferrer">MMM-ping</a> - Status of ping to Google, Cloudflare, and my NAS
+- <a href="https://github.com/MichMich/MMM-Snow" target="_blank" rel="noopener noreferrer">MMM-Snow</a> - Festive overlay of snow, hearts, or rain

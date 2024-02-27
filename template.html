@@ -89,39 +89,84 @@
             velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat,
             purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
             convallis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis
-            velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat,
-            purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
-            convallis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis
-            velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat,
-            purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan
-            convallis.</p>
     </div>
-
-    <style>
-        .footer {
-
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background-color: #1abc9c;
+    
+    <!-- Make a card on top of the text-->
+    <div class="card" id="cardtemp">
+        <style>
+            .card{
+            z-index: 1;
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            width: 10%;
+            height: 20%;
+            /*background-color: #1abc9c;*/
+            background-color: #000;
             color: white;
             text-align: center;
-        }
-    </style>
+
+            }
+        </style>
+        <h2>Card</h2>
+        <p>Some text</p>
+    </div>
+
+    <!--text field that I can insert js code into-->
+    <div class="demodiv">
+        <p id="demo"><br><br></p>
+        <script>
+
+            //randomly selects a character from the string and adds it to the text variable
+            function randomText(){
+                const ALLChar = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$^&|:/";
+                text = "";
+                for (let i = 0; i < 10000; i++) {
+                    text += ALLChar.charAt(Math.floor(Math.random() * ALLChar.length));
+                }
+                //remove all newline characters
+                return text;
+            }
+            document.getElementById("demo").innerHTML = randomText();
+            
+/*             demo.onmousemove = e => {
+                document.getElementById("demo").innerHTML = randomText();
+            } */
+            cardtemp.onmousemove = e => {
+                document.getElementById("demo").innerHTML = randomText();
+            }
+            
+            
+            
+        </script>
+        <style>
+            div.demodiv {
+                /*padding: 10px;*/
+                word-wrap: break-word; 
+                z-index: 0; 
+                /*a few shades lighter then #1abc9c */
+                color: #a8ecdf;
+            }
+    
+        </style>
+    </div>
+
+    
+
+  
 
     <style>
         /* Footer Styles */
         .footer {
-            position: absolute;
+            position: fixed;
             left: 0;
             bottom: 0;
             width: 100%;
             background-color: #1abc9c;
             color: white;
             text-align: center;
-            padding: 10px 0;
+            height: 10%;
+            
         }
 
         /* Footer Content */
@@ -134,18 +179,17 @@
         /* Counter and Render Time Styles */
         .counter,
         .rendertimediv {
-            padding: 10px;
+            padding: 0 10px;
         }
 
         /* Table Styles */
         table {
-            width: 50%;
+            width: 100%;
             border-collapse: collapse;
         }
 
         td {
             border: none;
-            padding: 10px;
         }
 
         /* Button Styles */
@@ -160,9 +204,6 @@
     </style>
 
     <div class="footer">
-        <div class="footer-title">
-            <p>Stats for nerds:</p>
-        </div>
         <div class="footer-content">
             <table>
                 <tr>

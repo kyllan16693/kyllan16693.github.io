@@ -1,0 +1,23 @@
+/*css for most of my websites pages */
+
+/*Light theme colors 
+--text: #000000;
+--background: #ffffff;
+--primary: #1abc9c;
+--secondary: #bff8ed;
+--accent: #d5153b;
+*/
+
+/*Dark theme colors
+--text: #ffffff;
+--background: #000000;
+--primary: #1abc9c;
+--secondary: #031c17;
+--accent: #f48fa3;
+*/
+
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    
