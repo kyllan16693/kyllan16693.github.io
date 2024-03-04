@@ -1,0 +1,110 @@
+:root {
+    --background-color: #121212;
+    --text-color: #FDD5D6;
+    --button-bg-color: #EE4266;
+    --header-footer-bg-color: #329A91;
+    --section-bg-color: #131918;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    z-index: 1;
+    background-color: var(--header-footer-bg-color);
+    color: var(---text-color);
+    text-align: center;
+    padding: 1rem;
+    z-index: 1;
+    position: relative;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--text-color) !important;
+}
+
+section {
+    padding: 2rem;
+    background-color: var(--section-bg-color);
+    color: var(--text-color);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    z-index: 1;
+    position: relative;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--button-bg-color);
+    color: var(--text-color);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--header-footer-bg-color);
+}
+
+#myMap {
+    width: 100%;
+    height: 300px;
+}
+
+#topP {
+    padding: 0 10rem;
+    max-width: 880px;
+    margin: auto;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--header-footer-bg-color);
+    z-index: 1;
+    position: relative;
+    min-height: 100px;
+    
+}
+
+.footer-render-text {
+    color: var(--text-color);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: small;
+}
+
+
+.dynamic-text {
+    word-wrap: break-word;
+    z-index: 0;
+    color: #10302d;
+    position: absolute;
+    width: 100%;
+}
+
+.footer-icon-links {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+
+}

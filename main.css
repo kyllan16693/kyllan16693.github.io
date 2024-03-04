@@ -1,23 +1,189 @@
-/*css for most of my websites pages */
-
-/*Light theme colors 
---text: #000000;
---background: #ffffff;
---primary: #1abc9c;
---secondary: #bff8ed;
---accent: #d5153b;
-*/
-
-/*Dark theme colors
---text: #ffffff;
---background: #000000;
---primary: #1abc9c;
---secondary: #031c17;
---accent: #f48fa3;
-*/
+:root {
+    --background-color: #121212;
+    --text-color: #FDD5D6;
+    --button-bg-color: #EE4266;
+    --header-footer-bg-color: #329A91;
+    --section-bg-color: #131918;
+}
 
 
-body, h1, h2, h3, p {
+/* Links */
+a {
+    color: var(--button-bg-color);
+}
+
+a:visited {
+    color: #3d2b86;
+}
+
+a:hover {
+    color: var(--header-footer-bg-color);
+}
+
+a:active {
+    color: #38638C;
+}
+
+
+/* Header */
+header {
+    z-index: 1;
+    background-color: var(--header-footer-bg-color);
+    color: var(--text-color);
+    padding: 1rem;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.typing-cursor {
+    opacity: 1;
+    animation: blink-animation 1s infinite;
+    font-size: 2em;
+}
+
+@keyframes blink-animation {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+h1,
+h2,
+h3 {
+    color: var(--text-color) !important;
+}
+
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
     margin: 0;
     padding: 0;
-    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+section {
+    padding: 2rem;
+    background-color: var(--section-bg-color);
+    color: var(--text-color);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    z-index: 1;
+    position: relative;
+}
+
+.centeredText {
+    text-align: center;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    background-color: var(--button-bg-color);
+    color: var(--text-color);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+    position: relative;
+}
+
+button:hover {
+    background-color: var(--header-footer-bg-color);
+}
+
+.new::after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-image: url('https://www.svgrepo.com/show/477314/new-1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.4);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.new::after {
+    animation: pulse 2s infinite;
+}
+
+/* Markdown */
+#markdownHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#markdownHeader>* {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 50vw) {
+    #markdownHeader {
+        flex-direction: column;
+    }
+}
+
+#markdownContainer {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+
+/* Footer */
+footer {
+    margin-top: auto;
+    width: 100%;
+    background-color: var(--header-footer-bg-color);
+    z-index: 1;
+    position: relative;
+}
+
+.footer-render-text {
+    color: var(--text-color);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: small;
+    padding: .1rem;
+}
+
+.footer-icon-links {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+}

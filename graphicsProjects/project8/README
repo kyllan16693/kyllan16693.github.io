@@ -1,9 +1,0 @@
-This project can not be seen locally unless you start a server (I suggest a python server)
-
-- To run it "locally" you can use a python server that comes with python. By opening a terminal and navigating to 
-    the folder where this file is located and then type: python3 -m http.server
-- Then open a browser and go to http://localhost:8000
-
-or you can view the site here:
-https://pages.cs.wisc.edu/~kyllan/graphicsProjects/project8/project8.html
-

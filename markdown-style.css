@@ -1,0 +1,43 @@
+:host {
+    background-color: var(--section-bg-color);
+    color: var(--text-color);
+}
+
+a {
+    color: var(--button-bg-color);
+}
+
+a:visited {
+    color: #3d2b86;
+}
+
+a:hover {
+    color: var(--header-footer-bg-color);
+}
+
+a:active {
+    color: #38638C;
+}
+
+.markdown-body img {
+    max-width: 100%;
+    box-sizing: initial;
+    background-color: #fff;
+}
+
+
+/* code blocks */
+.markdown-body pre {
+    background-color: #552530;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.markdown-body code {
+    color: var(--text-color);
+    padding: 2px 4px;
+    border-radius: 4px;
+    background-color: #552530;
+    padding: .2em .4em;
+    margin: 0;
+}
