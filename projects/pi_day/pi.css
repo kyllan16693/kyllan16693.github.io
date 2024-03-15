@@ -1,0 +1,65 @@
+.correct {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+.incorrect {
+    background-color: lightcoral;
+    color: darkred;
+}
+
+.technicallyCorrect {
+    /* the best kind of correct */
+    background-color: yellow;
+    color: darkgoldenrod;
+}
+
+.correctPi span {
+    background-color: rgb(225, 225, 225);
+}
+
+
+.showNumbers {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+p {
+
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#sorry {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    max-width: 20%;
+
+}

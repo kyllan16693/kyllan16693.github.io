@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pi Checker</title>
+    <link rel="stylesheet" href="pi.css">
+    <script src="pi.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js"></script>
+
+</head>
+
+<body>
+    <h1>Happy Pi Day!</h1>
+    <h3>How much pi do you know?</h3>
+    <input type="text" id="numberInput" placeholder="Enter a number">
+    <button id="checkButton">Check Pi</button>
+    <br>
+    <div id="piDigits" class="showNumbers"></div>
+    <div id="correctPi1" class="showNumbers correctPi"></div>
+
+    <h1>History of Pi Calculations</h1>
+    <br>
+    <h1>Before Common Era</h1>
+    <br>
+    <h3>Babylon, 1900-1600 BC</h3>
+    <p>In Babylon, a clay tablet implies an approximation of π as 3.125.</p>
+    <button id="showBabylon">Show Babylonian pi</button>
+    <div id="babylonPi" class="showNumbers"></div>
+    <div id="correctPi2" class="showNumbers correctPi"></div>
+    <br>
+
+    <h3>Egypt, 1850 BC</h3>
+    <p>The Rhind Papyrus from Egypt suggests π as approximately 3.16, calculated as \((\frac{16}{9})^2\).</p>
+    <button id="showEgypt">Show Egyptian pi</button>
+    <div id="egyptPi" class="showNumbers"></div>
+    <div id="correctPi3" class="showNumbers correctPi"></div>
+    <br>
+
+    <h3>India, 2000-1 BC</h3>
+    <p>In the Shulba Sutras of Indian mathematics, various approximations are given, like 3.08831, 3.08833, 3.004, 3,
+        and 3.125.</p>
+    <button id="showIndia">Show Indian pi</button>
+    <div id="indiaPi" class="showNumbers"></div>
+    <div id="correctPi4" class="showNumbers correctPi"></div>
+    <br>
+
+
+    <h1>Polygon approximation era</h1>
+    <br>
+
+    <h2>Archimedes, 250 BC</h2>
+    <p>Archimedes of Greece used a polygonal method to establish that 3.1408 < π < 3.1429, famously approximating π to
+            \(\frac{22}{7}\). This method dominated for over 1,000 years.</p>
+            <button id="showArchimedes">Show Archimedes pi</button>
+            <div id="archimedesPi" class="showNumbers"></div>
+            <div id="correctPi5" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>Ptolemy, 150 AD</h2>
+            <p>Ptolemy documented a π value of 3.1416, possibly deriving from earlier works of Archimedes or Apollonius.
+            </p>
+            <button id="showPtolemy">Show Ptolemy pi</button>
+            <div id="ptolemyPi" class="showNumbers"></div>
+            <div id="correctPi6" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>Zu Chongzhi, 265 AD</h2>
+            <p>Zu Chongzhi, around 480 AD, estimated π between 3.1415926 and 3.1415927, offering the highly accurate
+                fraction \(\frac{355}{113}\).</p>
+            <button id="showZu">Show Zu Chongzhi pi</button>
+            <div id="zuPi" class="showNumbers"></div>
+            <div id="correctPi7" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>Aryabhata, 499 AD</h2>
+            <p>Aryabhata, in 499 AD, used a π value of 3.1416 in his Āryabhaṭīya.</p>
+            <button id="showAryabhata">Show Aryabhata pi</button>
+            <div id="aryabhataPi" class="showNumbers"></div>
+            <div id="correctPi8" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>Fibonacci, 1220</h2>
+            <p>Fibonacci approximated π as 3.1418 using a polygonal method, independent of Archimedes.</p>
+            <button id="showFibonacci">Show Fibonacci pi</button>
+            <div id="fibonacciPi" class="showNumbers"></div>
+            <div id="correctPi9" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>Dante, 1320</h2>
+            <p>Itailian poet Dante Alighieri approximated π as \(3 + \frac{\sqrt{2}}{10}\) around 3.14142.</p>
+            <button id="showDante">Show Dante pi</button>
+            <div id="dantePi" class="showNumbers"></div>
+            <div id="correctPi10" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>Jamshīd al-Kāshī, 1424</h2>
+            <p>Jamshīd al-Kāshī produced nine sexagesimal digits, roughly the equivalent of 16 decimal digits, in 1424,
+                using a polygon with \(3 \times 2^{28}\) sides.</p>
+            <button id="showKashi">Show Jamshīd al-Kāshī pi</button>
+            <div id="kashiPi" class="showNumbers"></div>
+            <div id="correctPi11" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>François Viète, 1579</h2>
+            <p>François Viète achieved nine digits with a polygon of \(3 \times 2^{17}\) sides.</p>
+            <button id="showViète">Show François Viète pi</button>
+            <div id="viètePi" class="showNumbers"></div>
+            <div id="correctPi12" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>Adriaan van Roomen, 1593</h2>
+            <p>Adriaan van Roomen arrived at 15 decimal places in 1593.</p>
+            <button id="showRoomen">Show Adriaan van Roomen pi</button>
+            <div id="roomenPi" class="showNumbers"></div>
+            <div id="correctPi13" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>Ludolph van Ceulen, 1596</h2>
+            <p>Ludolph van Ceulen reached 20 digits, a record he later increased to 35 digits.</p>
+            <button id="showCeulen">Show Ludolph van Ceulen pi</button>
+            <div id="ceulenPi" class="showNumbers"></div>
+            <div id="correctPi14" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>Willebrord Snellius, 1621</h2>
+            <p>Willebrord Snellius reached 34 digits in 1621.</p>
+            <button id="showSnellius">Show Willebrord Snellius pi</button>
+            <div id="snelliusPi" class="showNumbers"></div>
+            <div id="correctPi15" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>Christoph Grienberger, 1630</h2>
+            <p>Christoph Grienberger arrived at 38 digits in 1630 using \(10^{40}\) sides.</p>
+            <button id="showGrienberger">Show Christoph Grienberger pi</button>
+            <div id="grienbergerPi" class="showNumbers"></div>
+            <div id="correctPi16" class="showNumbers correctPi"></div>
+            <br>
+
+
+            <h1>Infinite series era</h1>
+            <br>
+
+            <h2>François Viète, 1593</h2>
+            <p>François Viète in 1593 published what is now known as Viète's formula, an infinite product. He could only
+                calculate up to 9 digits but he showed that there were other ways to calculate pi.</p>
+            <p>\( {\frac {2}{\pi }}={\frac {\sqrt {2}}{2}}\cdot {\frac {\sqrt {2+{\sqrt {2}}}}{2}}\cdot {\frac {\sqrt
+                {2+{\sqrt {2+{\sqrt {2}}}}}}{2}}\cdots\) </p>
+            <button id="showViète2">Show François Viète pi</button>
+            <div id="viètePi2" class="showNumbers"></div>
+            <div id="correctPi17" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>Isaac Newton 1660s</h2>
+            <p>Newton himself used an arcsine series to compute a 15-digit approximation of π in 1665 or 1666, writing,
+                "I am ashamed to tell you to how many figures I carried these computations, having no other business at
+                the time."</p>
+            <button id="showNewton">Show Newton pi</button>
+            <div id="newtonPi" class="showNumbers"></div>
+            <div id="correctPi18" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>Abraham Sharp, 1699</h2>
+            <p>Abraham Sharp used the Gregory-Leibniz series to compute π to 71 digits, using \(z =
+                \frac{1}{\sqrt{3}}\).</p>
+            <p>James Gregory, and independently, Leibniz in 1673, discovered the Taylor series expansion for arctangent:
+            </p>
+            <p>\(\arctan(x) = x - \frac{x^3}{3} + \frac{x^5}{5} - \frac{x^7}{7} + \frac{x^9}{9} - \cdots\)</p>
+            <button id="showSharp">Show Abraham Sharp pi</button>
+            <div id="sharpPi" class="showNumbers"></div>
+            <div id="correctPi19" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>John Machin, 1706</h2>
+            <p>John Machin used the Gregory-Leibniz series to produce an algorithm that converged much faster. Machin
+                reached 100 digits of π with this formula.</p>
+            <p>\(\frac{\pi}{4} = 4 \arctan \frac{1}{5} - \arctan \frac{1}{239}\)</p>
+            <button id="showMachin">Show John Machin pi</button>
+            <div id="machinPi" class="showNumbers"></div>
+            <div id="correctPi20" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>Zacharias Dase, 1844</h2>
+            <p>Zacharias Dase used a Machin-like formula to calculate 200 decimals of π in his <b>head</b> at the behest
+                of German mathematician Carl Friedrich Gauss.</p>
+            <button id="showDase">Show Zacharias Dase pi</button>
+            <div id="dasePi" class="showNumbers"></div>
+            <div id="correctPi21" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>William Shanks, 1873</h2>
+            <p>William Shanks calculated π to 707 digits, but made a mistake in the 528th digit, rendering all
+                subsequent digits incorrect. This is the number he calculated:</p>
+            <button id="showShanks">Show William Shanks pi</button>
+            <div id="shanksPi" class="showNumbers"></div>
+            <div id="correctPi22" class="showNumbers correctPi"></div>
+            <br>
+
+
+            <h1>Computer era</h1>
+            <br>
+
+            <h2>John Wrench and Levi Smith, 1949</h2>
+            <p>John Wrench and Levi Smith reached 1,120 digits in 1949 using a desk calculator.</p>
+            <button id="showWrench">Show John Wrench and Levi Smith pi</button>
+            <div id="wrenchPi" class="showNumbers"></div>
+            <div id="correctPi23" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>George Reitwiesner and John von Neumann, 1949</h2>
+            <p>George Reitwiesner and John von Neumann achieved 2,037 digits with a calculation that took 70 hours of
+                computer time on the ENIAC computer.</p>
+            <button id="showReitwiesner">Show George Reitwiesner and John von Neumann pi</button>
+            <div id="reitwiesnerPi" class="showNumbers"></div>
+            <div id="correctPi24" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>Nicholas W. M. Ritchie, 1955</h2>
+            <p>Nicholas W. M. Ritchie achieved 3,089 digits in 1955.</p>
+            <button id="showRitchie">Show Nicholas W. M. Ritchie pi</button>
+            <div id="ritchiePi" class="showNumbers"></div>
+            <div id="correctPi25" class="showNumbers correctPi"></div>
+
+            <h2>George E. Felton, 1957</h2>
+            <p>George E. Felton achieved 7,480 digits in 1957. He calculated up to 10,021 digits but only the first
+                7,480 were correct. (I tried to find the output from his attempt but could not find a source of it
+                online so I only included here the first correct digits)</p>
+            <button id="showFelton">Show George E. Felton pi</button>
+            <div id="feltonPi" class="showNumbers"></div>
+            <div id="correctPi26" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>Francois Genuys, 1958</h2>
+            <p>Francois Genuys achieved 10,000 digits in 1958 using an IBM 704 computer.</p>
+            <button id="showGenuys">Show Francois Genuys pi</button>
+            <div id="genuysPi" class="showNumbers"></div>
+            <div id="correctPi27" class="showNumbers correctPi"></div>
+            <br>
+
+            <h1>Modern era</h1>
+            <br>
+
+            <p>We keep calculatating more and more pi to this day. The current record was broken this year (2024) by
+                Jordan Ranous, Kevin O'Brien, and Brian Beeler on pi day. They calculated <b>105 Trillion</b>
+                (105,000,000,000,000) digits of pi using 2 x AMD EPYC 9754 (128 cores, 1.5 TiB RAM) and 1,105 TB of
+                storage. The calculation took 78 days</p>
+            <button id="showRanous">Show Jordan Ranous, Kevin O'Brien, and Brian Beeler pi</button>
+            <div id="sorry"></div>
+            <br>
+
+            <h1>Matt Parker's Pi Calculations</h1>
+            <p>Over the years, Matt Parker has calculated pi to various degrees of accuracy. Here are some of his
+                attempts:</p>
+            <br>
+
+            <h2>2013</h2>
+            <p>Calculatating pi with pies. <a href="https://www.youtube.com/watch?v=ZNiRzZ66YN0" target="_blank"
+                    rel="noopener noreferrer">Video</a></p>
+            <button id="showParker2013">Show Matt Parker's 2013 pi</button>
+            <div id="parker2013Pi" class="showNumbers"></div>
+            <div id="correctPi28" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>2015</h2>
+            <p>For ultimate pi day, Matt Parker calculated pi by weighing a circle. <a
+                    href="https://www.youtube.com/watch?v=Ngj0a57Rlb0" target="_blank"
+                    rel="noopener noreferrer">Video</a></p>
+            <button id="showParker2015">Show Matt Parker's 2015 pi</button>
+            <div id="parker2015Pi" class="showNumbers"></div>
+            <div id="correctPi29" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>2015 pt.2</h2>
+            <p>In 2015 Matt Parker also calculated pi by swinging a pie on a pendulum. <a
+                    href="https://www.youtube.com/watch?v=qYAdXm69l8g" target="_blank"
+                    rel="noopener noreferrer">Video</a></p>
+            <button id="showParker2015pt2">Show Matt Parker's 2015 pt.2 pi</button>
+            <div id="parker2015pt2Pi" class="showNumbers"></div>
+            <div id="correctPi30" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>2016</h2>
+            <p>For this pi day Matt Parker calculated pi by hand using alternating adding and subtracting odd fractions.
+                <a href="https://www.youtube.com/watch?v=HrRMnzANHHs" target="_blank"
+                    rel="noopener noreferrer">Video</a></p>
+            <p>\(\pi = 4 \cdot \left(1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \frac{1}{9} - \frac{1}{11} +
+                \cdots\right)\)</p>
+            <button id="showParker2016">Show Matt Parker's 2016 pi</button>
+            <div id="parker2016Pi" class="showNumbers"></div>
+            <div id="correctPi31" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>2017</h2>
+            <p>For this pi day Matt Parker calculated pi by rolling dice and using the probability of the numbers
+                sharing a factor with eachother is \(\frac{6}{\pi^2}\). <a
+                    href="https://www.youtube.com/watch?v=RZBhSi_PwHU" target="_blank"
+                    rel="noopener noreferrer">Video</a></p>
+            <button id="showParker2017">Show Matt Parker's 2017 pi</button>
+            <div id="parker2017Pi" class="showNumbers"></div>
+            <div id="correctPi32" class="showNumbers correctPi"></div>
+            <br>
+
+
+            <h2>2018</h2>
+            <p>For this pi day Matt Parker calculated pi by hand again, this time using the chudnovsky algorithm. <a
+                    href="https://www.youtube.com/watch?v=LhlqCJjbEa0" target="_blank"
+                    rel="noopener noreferrer">Video</a></p>
+            <p>\(\frac{1}{\pi} = 12 \sum_{k=0}^{\infty} \frac{(-1)^k (6k)! (545140134k + 13591409)}{(3k)!(k!)^3
+                640320^{3k + 3/2}}\)</p>
+            <button id="showParker2018">Show Matt Parker's 2018 pi</button>
+            <div id="parker2018Pi" class="showNumbers"></div>
+            <div id="correctPi33" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>2019</h2>
+            <p>For this pi day Matt Parker calculated pi with a balancing beam. <a
+                    href="https://www.youtube.com/watch?v=S26_O2B8h8k" target="_blank"
+                    rel="noopener noreferrer">Video</a></p>
+            <p>\(\frac{\pi^2}{6} = \frac{1}{1^2} + \frac{1}{2^2} + \frac{1}{3^2} + \frac{1}{4^2} + \cdots\)</p>
+            <button id="showParker2019">Show Matt Parker's 2019 pi</button>
+            <div id="parker2019Pi" class="showNumbers"></div>
+            <div id="correctPi34" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>2020</h2>
+            <p>For this pi day Matt Parker calculated pi the isaac newton way but slightly modified. <a
+                    href="https://www.youtube.com/watch?v=CKl1B8y4qXw" target="_blank"
+                    rel="noopener noreferrer">Video</a></p>
+            <p>\(\pi = \frac{3\sqrt{3}}{4} + 2 - 24(\frac{1}{5 \times 2^5} + \frac{1}{7 \times 2^9} + \frac{1}{9 \times
+                2^{13}} + \frac{1}{11 \times 2^{17}} + \cdots)\)</p>
+            <button id="showParker2020">Show Matt Parker's 2020 pi</button>
+            <div id="parker2020Pi" class="showNumbers"></div>
+            <div id="correctPi35" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>2021</h2>
+            <p>For this pi day Matt Parker calculated pi with Avogadro's number. <a
+                    href="https://www.youtube.com/watch?v=lmgCgzjlWO4" target="_blank"
+                    rel="noopener noreferrer">Video</a></p>
+            <p>\(\pi = \frac{6.2 \times 10^{-3}}{0.004^2}\)</p>
+            <button id="showParker2021">Show Matt Parker's 2021 pi</button>
+            <div id="parker2021Pi" class="showNumbers"></div>
+            <div id="correctPi36" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>2022</h2>
+            <p>For this pi day Matt Parker calculated pi by hand the William Shanks way, if done correctly it would have
+                been the most accurate pi calculation by hand in a few centuries. <a
+                    href="https://www.youtube.com/watch?v=dtiLxLrzjOQ" target="_blank"
+                    rel="noopener noreferrer">Video</a></p>
+            <button id="showParker2022">Show Matt Parker's 2022 pi</button>
+            <div id="parker2022Pi" class="showNumbers"></div>
+            <div id="correctPi37" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>2023</h2>
+            <p>For this pi day Matt Parker calculated pi using an out of control car. <a
+                    href="https://www.youtube.com/watch?v=_ZbUyS2IRMo" target="_blank"
+                    rel="noopener noreferrer">Video</a></p>
+            <p>\(\pi = \frac{15 \times c \times f}{2 \times s^2}\)</p>
+            <button id="showParker2023">Show Matt Parker's 2023 pi</button>
+            <div id="parker2023Pi" class="showNumbers"></div>
+            <div id="correctPi38" class="showNumbers correctPi"></div>
+            <br>
+
+
+            <h2>2024</h2>
+            <p>For this pi day Matt Parker tried to break the record again set in the 1870s by williams shanks. This
+                year he and his volunteers used a modified arc tan formula to calculate pi. <a
+                    href="https://www.youtube.com/watch?v=LIg-6glbLkU" target="_blank"
+                    rel="noopener noreferrer">Video</a></p>
+            <p>\(\frac{\pi}{4} = 1587 \arctan{\frac{1}{2852}} + 295 \arctan{\frac{1}{4193}} + 593
+                \arctan{\frac{1}{4246}} + 359 \arctan{\frac{1}{39307}} + 481 \arctan{\frac{1}{55603}} + 625
+                \arctan{\frac{1}{211050}} - 708 \arctan{\frac{1}{390112}} \) then multiply by 4 to get</p>
+            <p>\(\pi = 6348 \arctan{\frac{1}{2852}} + 1180 \arctan{\frac{1}{4193}} + 2372 \arctan{\frac{1}{4246}} + 1436
+                \arctan{\frac{1}{39307}} + 1924 \arctan{\frac{1}{55603}} + 2500 \arctan{\frac{1}{211050}} - 2832
+                \arctan{\frac{1}{390112}} \)</p>
+            <button id="showParker2024">Show Matt Parker's 2024 pi</button>
+            <div id="parker2024Pi" class="showNumbers"></div>
+            <div id="correctPi39" class="showNumbers correctPi"></div>
+            <br>
+
+            <h2>Matt Parker's running average of pi</h2>
+            <p>Combining all of Matt Parker's pi calculations, we can see they're average value of pi. This is a fun way
+                to see how accurate Matt Parker's pi calculations are.</p>
+            <button id="showParkerAverage">Show Matt Parker's running average of pi</button>
+            <div id="parkerAveragePi" class="showNumbers"></div>
+            <div id="correctPi40" class="showNumbers correctPi"></div>
+            <br>
+
+
+
+            <footer>
+                <p>Thanks for the pi: <a href="https://github.com/eneko/Pi" target="_blank" rel="noopener noreferrer">
+                        https://github.com/eneko/Pi</a></p>
+                <p>All of the information about the history of pi was taken from the wikipedia page on pi: <a
+                        href="https://en.wikipedia.org/wiki/Pi#Hisotry" target="_blank"
+                        rel="noopener noreferrer">https://en.wikipedia.org/wiki/Pi</a> and <a
+                        href="https://en.wikipedia.org/wiki/Chronology_of_computation_of_π#" target="_blank"
+                        rel="noopener noreferrer">https://en.wikipedia.org/wiki/Chronology_of_computation_of_π</a></p>
+                <p>Thanks to Matt Parker for all of his pi calculations and for inspiration: <a
+                        href="https://www.youtube.com/user/standupmaths" target="_blank"
+                        rel="noopener noreferrer">https://www.youtube.com/user/standupmaths</a></p>
+            </footer>
+
+</html>
