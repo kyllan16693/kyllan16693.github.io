@@ -13,7 +13,7 @@
     <script type='text/javascript' src='http://www.bing.com/api/maps/mapcontrol?callback=initializeMap' async
         defer></script>
     <script src="jstz.min.js"></script>
-    <script src="thiswebsiteisscary.js"></script>
+    <script src="thiswebsiteisscary.js" defer></script>
     <link rel="apple-touch-icon" sizes="180x180" href="../../favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../../favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../favicon_io/favicon-16x16.png">
@@ -47,6 +47,12 @@
         </section>
         <section id="browser-section">
             <div id="browser"></div>
+        </section>
+        <section id="device-section">
+            <div id="device"></div>
+        </section>
+        <section id="other-section">
+            <div id="other"></div>
         </section>
         <section id="location-section">
             <h3>Your Location</h3>
@@ -101,7 +107,7 @@
         text = "";
         let i = window.innerHeight;
         let j = window.innerWidth;
-        let textLength = Math.floor(i * j / 115);
+        let textLength = Math.floor(i * j / 82);
         for (let i = 0; i < textLength; i++) {
             text += ALLChar.charAt(Math.floor(Math.random() * ALLChar.length));
         }
