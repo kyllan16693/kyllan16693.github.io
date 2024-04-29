@@ -88,6 +88,16 @@ section {
     text-align: center;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
 /* Buttons */
 button {
     padding: 10px 20px;
