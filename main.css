@@ -97,7 +97,8 @@ section {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 20px;
 }
 
 .section {
@@ -264,4 +265,10 @@ footer {
     border-radius: 10px;
     background: var(--section-bg-color);
     z-index: -1;
+}
+
+.centered-and-scaled-icons {
+    display: block;
+    margin: auto;
+    transform: scale(0.6);
 }
