@@ -85,9 +85,10 @@ section {
     background-color: var(--section-bg-color);
     color: var(--text-color);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    margin: 1rem;
+    margin: 1.5rem;
     z-index: 1;
     position: relative;
+    border-radius: 20px;
 }
 
 .centeredText {
@@ -202,4 +203,65 @@ footer {
     align-items: center;
     padding: 2rem;
     gap: 1rem;
+}
+
+
+/* Mini-skills section */
+#skills-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    background-color: var(--button-bg-color);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+#skills-link:hover {
+    background-color: var(--header-footer-bg-color);
+}
+
+#my-skills-section h2, #my-skills-section p {
+    text-decoration: none;
+    color: var(--text-color);
+    text-align: center;
+}
+
+#skills-icons-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-icon {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease;
+}
+
+.skill-icon:hover {
+    transform: scale(1.3);
+}
+
+#my-skills-section {
+    position: relative;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#my-skills-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    background: var(--section-bg-color);
+    z-index: -1;
 }
