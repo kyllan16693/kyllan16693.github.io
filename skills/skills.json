@@ -120,6 +120,8 @@
     "title": "LaTeX",
     "fullName": "LaTeX",
     "description": "Authored numerous academic papers using LaTeX.",
+    "link": ["https://kyllan.dev/projects/pi_day/pi.html", "https://github.com/kyllan16693/flight-delay-prediction/blob/main/Flight_Delay_Prediction_Report.pdf"],
+    "linkName": ["Pi Day", "Flight Delay Report"],
     "icon": "https://skillicons.dev/icons?i=latex&theme=dark",
     "tags": ["ALL", "Data Science"]
   },
