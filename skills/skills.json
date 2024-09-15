@@ -1,0 +1,276 @@
+[
+  {
+    "title": "Anaconda",
+    "fullName": "Anaconda Distribution",
+    "description": "Proficient in installing Anaconda across multiple operating systems and experienced in setting up new environments using YAML files.",
+    "icon": "https://skillicons.dev/icons?i=anaconda&theme=dark",
+    "tags": ["ALL", "Python", "Data Science"]
+  },
+  {
+    "title": "Apple",
+    "fullName": "Apple Inc.",
+    "description": "Extensive familiarity with the Apple ecosystem and macOS, including significant experience with the Homebrew package manager.",
+    "icon": "https://skillicons.dev/icons?i=apple&theme=dark",
+    "tags": ["ALL", "OS"]
+  },
+  {
+    "title": "Bash",
+    "fullName": "Bourne Again Shell",
+    "description": "Highly experienced with terminal environments and proficient in writing advanced Bash scripts.",
+    "icon": "https://skillicons.dev/icons?i=bash&theme=dark",
+    "tags": ["ALL", "Linux", "HPCC", "Dev Ops"]
+  },
+  {
+    "title": "Cloudflare",
+    "fullName": "Cloudflare",
+    "description": "Experienced in website hosting, domain management, and email forwarding; this site is hosted using Cloudflare. Check out my Cyber Attack Dashboard that is self-hosted using Cloudflare Tunnels.",
+    "link": ["https://cyber-attack-dashboard.kyllan.dev/"],
+    "linkName": ["Cyber Attack Dashboard"],
+    "icon": "https://skillicons.dev/icons?i=cloudflare&theme=dark",
+    "tags": ["ALL", "Web Dev", "Dev Ops"]
+  },
+  {
+    "title": "CSS",
+    "fullName": "Cascading Style Sheets",
+    "description": "Self-taught in CSS, with skills demonstrated on this website and my other projects.",
+    "link": ["https://kyllan.dev", "https://breakuptypingtest.com"],
+    "linkName": ["This Website", "Breakup Typing Test"],
+    "icon": "https://skillicons.dev/icons?i=css&theme=dark",
+    "tags": ["ALL", "Web Dev"]
+  },
+  {
+    "title": "Debian",
+    "fullName": "Debian GNU/Linux",
+    "description": "Highly experienced with various Debian distributions and skilled in navigating them.",
+    "icon": "https://skillicons.dev/icons?i=debian&theme=dark",
+    "tags": ["ALL", "Linux", "OS"]
+  },
+  {
+    "title": "Docker",
+    "fullName": "Docker",
+    "description": "Extensive experience using Docker for container creation and management over several years. Check out my Dockerized Breakup Typing Test website.",
+    "link": ["https://github.com/kyllan16693/breakuptypingtest"],
+    "linkName": ["Breakup Typing Test"],
+    "icon": "https://skillicons.dev/icons?i=docker&theme=dark",
+    "tags": ["ALL", "Linux", "HPCC", "Dev Ops"]
+  },
+  {
+    "title": "Figma",
+    "fullName": "Figma",
+    "description": "Designed several academic projects using Figma, showcasing strong design skills.",
+    "icon": "https://skillicons.dev/icons?i=figma&theme=dark",
+    "tags": ["ALL", "Web Dev"]
+  },
+  {
+    "title": "Flask",
+    "fullName": "Flask",
+    "description": "Worked on multiple projects using Flask, including integrating with EasyBuild hooks.",
+    "icon": "https://skillicons.dev/icons?i=flask&theme=dark",
+    "tags": ["ALL", "Python", "Web Dev"]
+  },
+  {
+    "title": "Git",
+    "fullName": "Git",
+    "description": "Over 7 years of experience with Git, using it almost daily.",
+    "icon": "https://skillicons.dev/icons?i=git&theme=dark",
+    "tags": ["ALL", "Web Dev", "HPCC", "Dev Ops"]
+  },
+  {
+    "title": "GitHub",
+    "fullName": "GitHub",
+    "description": "Active contributor on GitHub; explore my projects for a deeper insight.",
+    "link": ["https://github.com/kyllan16693"],
+    "linkName": ["My GitHub"],
+    "icon": "https://skillicons.dev/icons?i=github&theme=dark",
+    "tags": ["ALL", "Web Dev", "Dev Ops"]
+  },
+  {
+    "title": "GitLab",
+    "fullName": "GitLab",
+    "description": "Over a year of experience with GitLab, primarily at MSU ICER.",
+    "icon": "https://skillicons.dev/icons?i=gitlab&theme=dark",
+    "tags": ["ALL", "HPCC", "Dev Ops"]
+  },
+  {
+    "title": "Grafana",
+    "fullName": "Grafana",
+    "description": "Experience using Grafana and eager to leverage its capabilities further.",
+    "icon": "https://skillicons.dev/icons?i=grafana&theme=dark",
+    "tags": ["ALL", "Data Science", "HPCC"]
+  },
+  {
+    "title": "HTML",
+    "fullName": "HyperText Markup Language",
+    "description": "Years of experience with HTML; this website serves as a showcase of my expertise.",
+    "link": ["https://kyllan.dev", "https://breakuptypingtest.com"],
+    "linkName": ["This Website", "Breakup Typing Test"],
+    "icon": "https://skillicons.dev/icons?i=html&theme=dark",
+    "tags": ["ALL", "Web Dev"]
+  },
+  {
+    "title": "JavaScript",
+    "fullName": "JavaScript",
+    "description": "Utilized JavaScript extensively on this website, my graphics projects, and my npx game.",
+    "link": ["https://kyllan.dev", "https://www.npmjs.com/package/@kyllan/cs-acronym-jeopardy", "https://kyllan.dev/projects/pi_day/pi.html"],
+    "linkName": ["This Website", "My npm Package", "Pi Day"],
+    "icon": "https://skillicons.dev/icons?i=js&theme=dark",
+    "tags": ["ALL", "Web Dev"]
+  },
+  {
+    "title": "LaTeX",
+    "fullName": "LaTeX",
+    "description": "Authored numerous academic papers using LaTeX.",
+    "icon": "https://skillicons.dev/icons?i=latex&theme=dark",
+    "tags": ["ALL", "Data Science"]
+  },
+  {
+    "title": "LinkedIn",
+    "fullName": "LinkedIn",
+    "description": "Active LinkedIn user for professional networking.",
+    "link": ["https://www.linkedin.com/in/kyllan-wunder-638b8b27b/"],
+    "linkName": ["My LinkedIn"],
+    "icon": "https://skillicons.dev/icons?i=linkedin&theme=dark",
+    "tags": ["ALL"]
+  },
+  {
+    "title": "Linux",
+    "fullName": "Linux",
+    "description": "Over 10 years of experience with Linux, with extensive familiarity across various distributions.",
+    "icon": "https://skillicons.dev/icons?i=linux&theme=dark",
+    "tags": ["ALL", "Linux", "OS", "HPCC", "Dev Ops"]
+  },
+  {
+    "title": "Markdown",
+    "fullName": "Markdown",
+    "description": "Frequently utilize Markdown for academic work and documentation; highly proficient.",
+    "icon": "https://skillicons.dev/icons?i=md&theme=dark",
+    "tags": ["ALL", "Web Dev"]
+  },
+  {
+    "title": "MongoDB",
+    "fullName": "MongoDB",
+    "description": "Experience with MongoDB and looking forward to applying it more extensively.",
+    "icon": "https://skillicons.dev/icons?i=mongodb&theme=dark",
+    "tags": ["ALL", "Data Science"]
+  },
+  {
+    "title": "MySQL",
+    "fullName": "MySQL",
+    "description": "Completed an extensive course on MySQL, with a strong understanding of its functionalities.",
+    "icon": "https://skillicons.dev/icons?i=mysql&theme=dark",
+    "tags": ["ALL", "Data Science"]
+  },
+  {
+    "title": "npm",
+    "fullName": "Node Package Manager",
+    "description": "Actively exploring npm; developed a game using npx.",
+    "link": ["https://www.npmjs.com/package/@kyllan/cs-acronym-jeopardy"],
+    "linkName": ["My npm Package"],
+    "icon": "https://skillicons.dev/icons?i=npm&theme=dark",
+    "tags": ["ALL", "Web Dev"]
+  },
+  {
+    "title": "Python",
+    "fullName": "Python",
+    "description": "Python is my preferred language, with over 6 years of daily usage and a deep familiarity with its ecosystem.",
+    "icon": "https://skillicons.dev/icons?i=python&theme=dark",
+    "tags": ["ALL", "Python", "Data Science", "HPCC"]
+  },
+  {
+    "title": "PyTorch",
+    "fullName": "PyTorch",
+    "description": "Extensive experience with PyTorch across various projects.",
+    "link": ["https://github.com/kyllan16693/flight-delay-prediction"],
+    "linkName": ["Flight Delay Prediction"],
+    "icon": "https://skillicons.dev/icons?i=pytorch&theme=dark",
+    "tags": ["ALL", "Python", "Data Science"]
+  },
+  {
+    "title": "R",
+    "fullName": "R Programming Language",
+    "description": "Authored a complete R package and possess significant expertise in R.",
+    "link": ["https://github.com/UW-Madison-DSI/Covid19Wastewater"],
+    "linkName": ["R Package"],
+    "icon": "https://skillicons.dev/icons?i=r&theme=dark",
+    "tags": ["ALL", "Data Science"]
+  },
+  {
+    "title": "Raspberry Pi",
+    "fullName": "Raspberry Pi",
+    "description": "Extensive experience with Raspberry Pi, completing projects such as a magic mirror, Pi-hole, and NAS. See more on my projects page.",
+    "icon": "https://skillicons.dev/icons?i=raspberrypi&theme=dark",
+    "tags": ["ALL", "Linux", "OS"]
+  },
+  {
+    "title": "Redis",
+    "fullName": "Redis",
+    "description": "Experience using Redis as a backend for Flask and EasyBuild hooks.",
+    "icon": "https://skillicons.dev/icons?i=redis&theme=dark",
+    "tags": ["ALL", "Python", "Web Dev"]
+  },
+  {
+    "title": "Regex",
+    "fullName": "Regular Expressions",
+    "description": "Proficient with regular expressions; even though it's annoying.",
+    "icon": "https://skillicons.dev/icons?i=regex&theme=dark",
+    "tags": ["ALL", "Web Dev", "Python"]
+  },
+  {
+    "title": "SQLite",
+    "fullName": "SQLite",
+    "description": "Hands-on experience with SQLite, with plans to utilize it more in future projects.",
+    "icon": "https://skillicons.dev/icons?i=sqlite&theme=dark",
+    "tags": ["ALL", "Data Science"]
+  },
+  {
+    "title": "SVG",
+    "fullName": "Scalable Vector Graphics",
+    "description": "My favorite image format! very familiar with SVG and its capabilities.",
+    "icon": "https://skillicons.dev/icons?i=svg&theme=dark",
+    "tags": ["ALL", "Web Dev"]
+  },
+  {
+    "title": "Swift",
+    "fullName": "Swift",
+    "description": "Developed several projects in Swift.",
+    "icon": "https://skillicons.dev/icons?i=swift&theme=dark",
+    "tags": ["ALL"]
+  },
+  {
+    "title": "TensorFlow",
+    "fullName": "TensorFlow",
+    "description": "Extensive experience using TensorFlow in multiple projects; I find it highly enjoyable to work with.",
+    "link": ["https://github.com/kyllan16693/flight-delay-prediction"],
+    "linkName": ["Flight Delay Prediction"],
+    "icon": "https://skillicons.dev/icons?i=tensorflow&theme=dark",
+    "tags": ["ALL", "Python", "Data Science"]
+  },
+  {
+    "title": "Ubuntu",
+    "fullName": "Ubuntu",
+    "description": "Ubuntu is my primary Linux distribution; highly familiar with its configuration and usage.",
+    "icon": "https://skillicons.dev/icons?i=ubuntu&theme=dark",
+    "tags": ["ALL", "Linux", "OS", "HPCC"]
+  },
+  {
+    "title": "Unity",
+    "fullName": "Unity Game Engine",
+    "description": "Developed several games using Unity and looking forward to using it more.",
+    "icon": "https://skillicons.dev/icons?i=unity&theme=dark",
+    "tags": ["ALL"]
+  },
+  {
+    "title": "VSCode",
+    "fullName": "Visual Studio Code",
+    "description": "My preferred code editor, offering versatility and extensibility.",
+    "icon": "https://skillicons.dev/icons?i=vscode&theme=dark",
+    "tags": ["ALL"]
+  },
+  {
+    "title": "Windows",
+    "fullName": "Microsoft Windows",
+    "description": "Very familiar with Windows, though I prefer other operating systems that don't spy on me or have ads.",
+    "icon": "https://skillicons.dev/icons?i=windows&theme=dark",
+    "tags": ["ALL", "OS"]
+  }
+]

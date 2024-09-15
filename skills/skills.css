@@ -1,0 +1,124 @@
+/* Container for the skill bubbles */
+#skills-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 90%; 
+    margin: 20px auto;
+}
+
+/* Basic styling for each bubble */
+.skill-bubble {
+    position: absolute;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: var(--section-bg-color);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    max-width: 250px;
+}
+
+/* Expanded bubble */
+.skill-bubble.expanded {
+    background-color: var(--button-bg-color);
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 250px;
+}
+
+/* Content inside the bubble */
+.skill-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+/* Icon on the left */
+.skill-content img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Title next to the icon */
+.skill-title {
+    font-size: 16px;
+    color: var(--text-color);
+    white-space: nowrap;
+}
+
+.long-description,
+.skill-link-button {
+    display: none;
+}
+
+.skill-bubble.expanded .long-description,
+.skill-bubble.expanded .skill-link-button {
+    display: block;
+    margin-top: 10px;
+    color: var(--text-color);
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+.skill-link-button {
+    padding: 5px 10px;
+    background-color: var(--header-footer-bg-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    align-self: flex-end;
+    margin-top: 10px;
+}
+
+.skill-link-button:hover {
+    background-color: var(--section-bg-color);
+}
+
+#buttons-container {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 90%; 
+}
+
+#buttons-container button {
+    padding: 10px 20px;
+    background-color: var(--button-bg-color);
+    color: var(--text-color);
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+#buttons-container button:hover {
+    background-color: var(--header-footer-bg-color);
+}
+
+#buttons-container button.active {
+    background-color: var(--header-footer-bg-color);
+}
+
+.styled-hr {
+    border-color: rgb(88, 88, 88);
+}
+
+@media screen and (max-width: 600px) {
+    .skill-content img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .skill-title {
+        font-size: 14px;
+    }
+}
