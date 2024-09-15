@@ -58,7 +58,7 @@
                 collaborate on developing innovative solutions to a broad spectrum of challenges. Previously, I have
                 engaged in research
                 focused on analyzing COVID-19 viral particles in wastewater to predict the spread of the pandemic (<a
-                    href="projects.html">view here</a>). I am passionate
+                    href="projects.html?md=covid-19-research">view here</a>). I am passionate
                 about leveraging data to drive decision-making and solve complex problems, take a look at my
                 projects</span><a href="projects.html" style="text-decoration: none; color: var(--text-color)"> <svg
                     width="20" height="20" viewBox="0 0 24 24" fill="none" style="vertical-align: text-bottom;">
@@ -78,47 +78,37 @@
         </section>
     </a>
 
-    <div class="grid-container">
+    <div id="projects-container" class="grid-container">
 
-        <section>
-            <p class="centeredText">See what websites know about you just by visiting them: <a
-                    href="/projects/scary/thiswebsiteisscary.html">Click here</a>
-            </p>
-        </section>
+    <script>
+        fetch('projects/projects.json')
+            .then(response => response.json())
+            .then(jsonData => {
+                const container = document.getElementById('projects-container');
+    
+                jsonData.sections.forEach(section => {
+                    const sectionElement = document.createElement('section');
+    
+                    const paragraphElement = document.createElement('p');
+                    paragraphElement.className = 'centeredText';
+                    paragraphElement.innerHTML = section.paragraph;
+    
+                    const iconList = section.icons.join(',');
+                    const imgElement = document.createElement('img');
+                    imgElement.src = `https://skillicons.dev/icons?i=${iconList}`;
+                    imgElement.alt = 'skills';
+                    imgElement.className = 'centered-and-scaled-icons';
+    
+                    sectionElement.appendChild(paragraphElement);
+                    sectionElement.appendChild(imgElement);
+    
+                    container.appendChild(sectionElement);
+                });
+            })
+            .catch(error => console.error('Error loading JSON:', error));
+    </script>
 
-        <section>
-            <p class="centeredText">Checkout how we calculate pi has evolved over the years: <a
-                    href="/projects/pi_day/pi.html">Happy Pi Day</a>
-            </p>
-        </section>
-
-        <section>
-            <p class="centeredText">Take a typing test that is a breakup message: <a
-                    href="https://breakuptypingtest.com/">Breakup Typing Test</a>
-            </p>
-        </section>
-
-        <section>
-            <p class="centeredText">Learn more about DDoS attacks and how they work: <a
-                    href="https://cyber-attack-dashboard.kyllan.dev/">Cyber Attack Dashboard</a>
-            </p>
-        </section>
-
-        <section>
-            <p class="centeredText">ELO Rating System and MMR in Modern
-                Games Literature Review: <a href="documents/Elo.pdf">Document</a>
-            </p>
-        </section>
-
-        <section>
-            <p class="centeredText">What causes flight delays and how to avoid them: <a
-                    href="https://github.com/kyllan16693/flight-delay-prediction/blob/main/Flight_Delay_Prediction_Report.pdf">Report</a>
-                    and <a href="https://github.com/kyllan16693/flight-delay-prediction">Repo</a>
-            </p>
-        </section>
-
-
-    </div>
+</div>
 </body>
 
 

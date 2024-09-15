@@ -52,12 +52,11 @@
 
 <body>
     <section>
-        <div id="markdownHeader">
-        </div>
+        <div id="markdownHeader"></div>
     </section>
     <section>
         <div id="markdownContainer">
-            <zero-md src="">
+            <zero-md id="markdownDisplay" src="">
                 <template>
                     <link rel="stylesheet" href="markdown-style.css">
                 </template>
@@ -75,18 +74,21 @@
             "/projects/markdowns/graphics-projects.md",
             "/projects/markdowns/eagle-scout-project.md",
         ];
-        let currentIndex = 0;
-        let newButtons = [];
+        let currentIndex = -1; // No markdown displayed initially
+
+        function getQueryParameter(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
 
         function createButtons() {
             const header = document.getElementById('markdownHeader');
             markdownFiles.forEach((file, index) => {
                 let button = document.createElement("button");
                 button.id = `button${index}`;
-                if (newButtons.includes(button.id)) {
-                    button.classList.add("new");
-                }
-                button.innerText = file.split('/').pop().split('.')[0];
+                let buttonText = file.split('/').pop().split('.')[0];
+                buttonText = buttonText.replace(/-/g, ' ');
+                button.innerText = buttonText;
                 button.addEventListener('click', function () {
                     currentIndex = index;
                     updateMarkdownDisplay();
@@ -96,22 +98,26 @@
         }
 
         function updateMarkdownDisplay() {
-            const markdownElement = document.querySelector('#markdownContainer zero-md');
-            markdownElement.setAttribute('src', markdownFiles[currentIndex]);
+            if (currentIndex >= 0) {
+                const markdownElement = document.getElementById('markdownDisplay');
+                markdownElement.setAttribute('src', markdownFiles[currentIndex]);
+            }
+        }
+
+        function checkForQueryParameter() {
+            const mdFile = getQueryParameter('md');
+            if (mdFile) {
+                const foundIndex = markdownFiles.findIndex(file => file.includes(mdFile));
+                if (foundIndex !== -1) {
+                    currentIndex = foundIndex;
+                    updateMarkdownDisplay();
+                }
+            }
         }
 
         createButtons();
-        updateMarkdownDisplay();
-
-
-        let buttons = document.querySelectorAll('button');
-        buttons.forEach(button => {
-            button.addEventListener('click', function () {
-                button.classList.remove('new');
-            });
-        });
+        checkForQueryParameter();
     </script>
-
 </body>
 
 
