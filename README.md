@@ -8,3 +8,4 @@ This is all the files for my personal website:
 - [favicon.io](https://favicon.io/)
 - [Realtime Colors](https://www.realtimecolors.com/)
 - [SVG repo](https://www.svgrepo.com/)
+- [Skill Icons](https://skillicons.dev/)
