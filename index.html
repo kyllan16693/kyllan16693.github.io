@@ -90,6 +90,7 @@
     
                 jsonData.sections.forEach(section => {
                     const sectionElement = document.createElement('section');
+                    sectionElement.className = 'project-section';
     
                     const paragraphElement = document.createElement('p');
                     paragraphElement.className = 'centeredText';
@@ -101,8 +102,13 @@
                     imgElement.alt = 'skills';
                     imgElement.className = 'centered-and-scaled-icons';
     
+                    const dateElement = document.createElement('div');
+                    dateElement.className = 'date';
+                    dateElement.textContent = section.date;
+    
                     sectionElement.appendChild(paragraphElement);
                     sectionElement.appendChild(imgElement);
+                    sectionElement.appendChild(dateElement);
     
                     container.appendChild(sectionElement);
                 });
