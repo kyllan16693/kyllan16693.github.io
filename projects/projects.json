@@ -2,51 +2,63 @@
     "sections": [
       {
         "paragraph": "See what websites know about you just by visiting them: <a href='/projects/scary/thiswebsiteisscary.html'>Click here</a>",
-        "icons": ["js", "html", "css", "git", "github", "vscode"]
+        "icons": ["js", "html", "css", "git", "github", "vscode"],
+        "date": "February 2024"
       },
       {
         "paragraph": "Checkout how we calculate pi has evolved over the years: <a href='/projects/pi_day/pi.html'>Happy Pi Day</a>",
-        "icons": ["js", "html", "css", "git", "github", "latex", "vscode"]
+        "icons": ["js", "html", "css", "git", "github", "latex", "vscode"],
+        "date": "March 2024"
       },
       {
         "paragraph": "Take a typing test that is a breakup message: <a href='https://breakuptypingtest.com/'>Breakup Typing Test</a>",
-        "icons": ["js", "html", "css", "git", "github", "docker", "cloudflare", "vscode"]
+        "icons": ["js", "html", "css", "git", "github", "docker", "cloudflare", "vscode"],
+        "date": "May 2024"
       },
       {
         "paragraph": "Learn more about DDoS attacks and how they work: <a href='https://cyber-attack-dashboard.kyllan.dev/'>Cyber Attack Dashboard</a>",
-        "icons": ["python", "cloudflare", "git", "github", "vscode"]
+        "icons": ["python", "cloudflare", "git", "github", "vscode"],
+        "date": "November 2023"
       },
       {
-        "paragraph": "ELO Rating System and MMR in Modern Games Literature Review: <a href='documents/Elo.pdf'>Document</a>",
-        "icons": ["latex", "markdown", "svg"]
+        "paragraph": "ELO Rating System and MMR in Modern Games Literature Review: <a href='/documents/Elo.pdf'>Document</a>",
+        "icons": ["latex", "markdown", "svg"],
+        "date": "April 2023"
       },
       {
         "paragraph": "What causes flight delays and how to avoid them: <a href='https://github.com/kyllan16693/flight-delay-prediction/blob/main/Flight_Delay_Prediction_Report.pdf'>Report</a> and <a href='https://github.com/kyllan16693/flight-delay-prediction'>Repo</a>",
-        "icons": ["python", "anaconda", "git", "github", "vscode", "pytorch", "markdown", "latex"]
+        "icons": ["python", "anaconda", "git", "github", "vscode", "pytorch", "markdown", "latex"],
+        "date": "April 2024"
       },
       {
         "paragraph": "I helped analyze Wisconsins wastewater to predict COVID-19 spread: <a href='https://github.com/UW-Madison-DSI/Covid19-Wastewater-Analysis'>Analysis</a>",
-        "icons": ["r", "git", "github", "markdown", "latex", "svg", "mysql", "sqlite"]
+        "icons": ["r", "git", "github", "markdown", "latex", "svg", "mysql", "sqlite"],
+        "date": "2022 - 2023"
       },
       {
         "paragraph": "While analyzing the Wisconsins wastewater we also created an R package to help others: <a href='https://github.com/UW-Madison-DSI/Covid19Wastewater'>R Package</a>",
-        "icons": ["r", "git", "github", "markdown", "svg", "mysql", "sqlite", "apple", "linux", "windows"]
+        "icons": ["r", "git", "github", "markdown", "svg", "mysql", "sqlite", "apple", "linux", "windows"],
+        "date": "2022 - 2023"
       },
       {
         "paragraph": "Play a computer science acronym jeopardy game right in your terminal with npx: <a href='https://www.npmjs.com/package/cs-acronym-jeopardy'>npx cs-acronym-jeopardy</a>",
-        "icons": ["npm", "javascript", "git", "github", "vscode", "apple", "linux", "windows"]
+        "icons": ["npm", "javascript", "git", "github", "vscode", "apple", "linux", "windows"],
+        "date": "August 2023"
       },
       {
         "paragraph": "I build my own magic mirror with a raspberry pi and a two way mirror: <a href='projects.html?md=magicmirror'>Magic Mirror</a>",
-        "icons": ["raspberrypi", "debian", "linux", "github", "javascript", "bash"]
+        "icons": ["raspberrypi", "debian", "linux", "github", "javascript", "bash"],
+        "date": "January 2023"
       },
       {
-        "paragraph": "Explore the platonic solids in 3D, a graphics project: <a href='https://kyllan.dev/projects/graphicsProjects/project5/project5.html'>Platonic Solids</a>",
-        "icons": ["javascript", "html", "css", "vscode"]
+        "paragraph": "Explore the platonic solids in 3D, a graphics project: <a href='/projects/graphicsProjects/project5/project5.html'>Platonic Solids</a>",
+        "icons": ["javascript", "html", "css", "vscode"],
+        "date": "November 2022"
       },
       {
         "paragraph": "I turned a raspberry pi into a tor middle relay: <a href='projects.html?md=pi-tor-relay'>Tor Relay Operations</a>",
-        "icons": ["raspberrypi", "debian", "linux", "c", "bash"]
+        "icons": ["raspberrypi", "debian", "linux", "c", "bash"],
+        "date": "November 2023"
       }
     ]
   }
