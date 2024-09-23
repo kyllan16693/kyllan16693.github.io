@@ -21,14 +21,22 @@
   - [R Package on GitHub](https://github.com/UW-Madison-DSI/Covid19Wastewater)
 
 ## Work Experience
+
 ### Michigan State University Institute for Cyber-Enadled Research (MSU Graduate)
 - Developing innovative solutions to a broad spectrum of software challenges
   - Experience in: Easybuild, Flask - Celery - Redis stack, EESSI, CentOS7, LLMs
+
 ### UW Madison Department of Statistics IT (UW Madison Undergraduate)
 - IT support for the statistics department, focusing on IT management systems and end-user support.
   - Experience in: Linux, Bash, High Throughput Computing, IT management systems, SLURM
 
 ## Technical Skills
+
+### Data Science
+- **Data Analysis**: Proficient in data analysis, visualization, and machine learning
+- **Data Wrangling**: Experience in cleaning and preparing data for analysis
+- **Statistical Analysis**: Proficient in statistical modeling, analysis, and hypothesis testing
+
 ### Programming Languages
 - **Advanced Proficiency**: Python, R, SQL, Bash
 - **Intermediate Knowledge**: HTML, CSS, JavaScript
