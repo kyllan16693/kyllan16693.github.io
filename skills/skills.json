@@ -7,10 +7,10 @@
     "tags": ["ALL", "Python", "Data Science"]
   },
   {
-    "title": "Apple",
-    "fullName": "Apple Inc.",
-    "description": "Extensive familiarity with the Apple ecosystem and macOS, including significant experience with the Homebrew package manager.",
-    "icon": "https://skills-icons.vercel.app/api/icons?i=apple",
+    "title": "macOS",
+    "fullName": "macOS",
+    "description": "Extensive familiarity with macOS, including significant experience with the Homebrew package manager.",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=macos",
     "tags": ["ALL", "OS"]
   },
   {
@@ -66,7 +66,7 @@
     "fullName": "Flask",
     "description": "Worked on multiple projects using Flask, including integrating with EasyBuild hooks.",
     "icon": "https://skills-icons.vercel.app/api/icons?i=flask",
-    "tags": ["ALL", "Python", "Web Dev"]
+    "tags": ["ALL", "Web Dev"]
   },
   {
     "title": "Git",
@@ -176,7 +176,7 @@
     "fullName": "Python",
     "description": "Python is my preferred language, with over 6 years of daily usage and a deep familiarity with its ecosystem.",
     "icon": "https://skills-icons.vercel.app/api/icons?i=python",
-    "tags": ["ALL", "Python", "Data Science", "HPCC"]
+    "tags": ["ALL", "Python", "Data Science", "HPCC", "LLMs"]
   },
   {
     "title": "PyTorch",
@@ -185,7 +185,7 @@
     "link": ["https://github.com/kyllan16693/flight-delay-prediction"],
     "linkName": ["Flight Delay Prediction"],
     "icon": "https://skills-icons.vercel.app/api/icons?i=pytorch",
-    "tags": ["ALL", "Python", "Data Science"]
+    "tags": ["ALL", "Python", "Data Science", "LLMs"]
   },
   {
     "title": "R",
@@ -208,7 +208,7 @@
     "fullName": "Redis",
     "description": "Experience using Redis as a backend for Flask and EasyBuild hooks.",
     "icon": "https://skills-icons.vercel.app/api/icons?i=redis",
-    "tags": ["ALL", "Python", "Web Dev"]
+    "tags": ["ALL", "Web Dev"]
   },
   {
     "title": "Regex",
@@ -227,7 +227,7 @@
   {
     "title": "SVG",
     "fullName": "Scalable Vector Graphics",
-    "description": "My favorite image format! very familiar with SVG and its capabilities.",
+    "description": "My favorite image format! Very familiar with SVG and its capabilities.",
     "icon": "https://skills-icons.vercel.app/api/icons?i=svg",
     "tags": ["ALL", "Web Dev"]
   },
@@ -264,7 +264,7 @@
   {
     "title": "VSCode",
     "fullName": "Visual Studio Code",
-    "description": "My preferred code editor, offering versatility and extensibility.",
+    "description": "Very familiar with VSCode, having used it for many projects over the years.",
     "icon": "https://skills-icons.vercel.app/api/icons?i=vscode",
     "tags": ["ALL"]
   },
@@ -274,5 +274,141 @@
     "description": "Very familiar with Windows, though I prefer other operating systems that don't spy on me or have ads.",
     "icon": "https://skills-icons.vercel.app/api/icons?i=windows",
     "tags": ["ALL", "OS"]
+  },
+  {
+    "title": "Ollama",
+    "fullName": "Ollama",
+    "description": "Ran and deployed Ollama in many projects across multiple OSs.",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=ollama",
+    "tags": ["ALL", "Dev Ops", "LLMs"]
+  },
+  {
+    "title": "Pandas",
+    "fullName": "Pandas",
+    "description": "Extensive experience with Pandas, a powerful data manipulation library.",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=pandas",
+    "tags": ["ALL", "Data Science", "Python"]
+  },
+  {
+    "title": "Proxmox",
+    "fullName": "Proxmox",
+    "description": "I run a 3 node cluster at home for personal projects and to learn new things.",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=proxmox",
+    "tags": ["ALL", "Dev Ops", "HPCC", "Linux", "OS"]
+  },
+  {
+    "title": "NGINX",
+    "fullName": "NGINX",
+    "description": "Experienced in deploying websites using NGINX.",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=nginx",
+    "tags": ["ALL", "Dev Ops", "Web Dev"]
+  },
+  {
+    "title": "EasyBuild",
+    "fullName": "EasyBuild",
+    "description": "Used at MSU ICER to install software on the cluster. I have lots of experience developing for and using EasyBuild.",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=easybuild",
+    "tags": ["ALL", "Dev Ops", "HPCC"]
+  },
+  {
+    "title": "Scikit-learn",
+    "fullName": "Scikit-learn",
+    "description": "Extensive experience with Scikit-learn, a powerful machine learning library.",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=scikitlearn",
+    "tags": ["ALL", "Data Science", "Python"]
+  },
+  {
+    "title": "Open OnDemand",
+    "fullName": "Open OnDemand",
+    "description": "Used at MSU ICER to deploy a web apps that run on the cluster. I have built and deployed many apps using it that are still in use.",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=openondemand",
+    "tags": ["ALL", "Dev Ops", "HPCC", "Web Dev"]
+  },
+  {
+    "title": "Singularity",
+    "fullName": "Singularity",
+    "description": "Docker alternative for scientific computing. Used at MSU ICER to deploy software on the cluster.",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=singularity",
+    "tags": ["ALL", "Dev Ops", "HPCC"]
+  },
+  {
+    "title": "SLURM",
+    "fullName": "SLURM Workload Manager",
+    "description": "I have managed SLURM clusters at MSU ICER and UW Madison Statistics Department. I have lots of experience developing for and using SLURM.",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=slurm",
+    "tags": ["ALL", "Dev Ops", "HPCC"]
+  },
+  {
+    "title": "LM Studio",
+    "fullName": "LM Studio",
+    "description": "I deployed LM Studio for use through Open OnDemand at MSU ICER. It is a web interface for running and interacting with LLMs.",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=lmstudio",
+    "tags": ["ALL", "LLMs", "HPCC"]
+  },
+  {
+    "title": "Open WebUI",
+    "fullName": "Open WebUI",
+    "description": "I deployed Open WebUI for use through Open OnDemand at MSU ICER. It is a web interface for running and interacting with LLMs.",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=openwebui",
+    "tags": ["ALL", "LLMs", "HPCC"]
+  },
+  {
+    "title": "TrueNAS Core",
+    "fullName": "TrueNAS Core",
+    "description": "I have used TrueNAS Core in the past to run a NAS at home. I have experience with the GUI and CLI.",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=truenascore",
+    "tags": ["ALL", "Dev Ops", "HPCC", "Linux", "OS"]
+  },
+  {
+    "title": "TrueNAS Scale",
+    "fullName": "TrueNAS Scale",
+    "description": "I am currently using TrueNAS Scale to run a NAS at home. I have experience with setting up and managing ZFS, deploying apps, and monitoring the cluster.",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=truenasscale",
+    "tags": ["ALL", "Dev Ops", "HPCC", "Linux", "OS"]
+  },
+  {
+    "title": "Homebrew",
+    "fullName": "Homebrew",
+    "description": "I have used Homebrew to install software on my macOS and Linux machines. I am very familiar with using a CLI package manager, downloading, installing, and updating packages.",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=homebrew",
+    "tags": ["ALL", "Linux", "OS"]
+  },
+  {
+    "title": "Jupyter",
+    "fullName": "Jupyter",
+    "description": "I am very familiar with Jupyter Notebooks, setting up and deploying Jupyter servers, and using JupyterLab.",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=jupyter",
+    "tags": ["ALL", "Data Science", "Python"]
+  },
+  {
+    "title": "Hugging Face",
+    "fullName": "Hugging Face",
+    "description": "Used many times for downloading and modifying models for projects.",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=huggingface",
+    "tags": ["ALL", "LLMs", "Python"]
+  },
+  {
+    "title": "Arc",
+    "fullName": "Arc Browser",
+    "description": "Arc is my current browser of choice.",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=arcbrowser",
+    "tags": ["ALL", "Web Dev"]
+  },
+  {
+    "title": "ChatGPT",
+    "fullName": "ChatGPT",
+    "description": "Very familiar with prompting ChatGPT and prompt engineering. I am also familiar with their API.",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=chatgpt",
+    "tags": ["ALL", "LLMs"]
+  },
+  {
+    "title": "Streamlit",
+    "fullName": "Streamlit",
+    "description": "I have used Streamlit to deploy many projects. I am familiar with the library and its capabilities. My Cyber Attack Dashboard is deployed using Streamlit, hosted on a local VM.",
+    "link": ["https://cyber-attack-dashboard.kyllan.dev/"],
+    "linkName": ["Cyber Attack Dashboard"],
+    "icon": "https://skills-icons.vercel.app/api/icons?i=streamlit",
+    "tags": ["ALL", "Web Dev", "Python", "Dev Ops"]
   }
+  
 ]
