@@ -3,21 +3,21 @@
     "title": "Anaconda",
     "fullName": "Anaconda Distribution",
     "description": "Proficient in installing Anaconda across multiple operating systems and experienced in setting up new environments using YAML files.",
-    "icon": "https://skillicons.dev/icons?i=anaconda&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=anaconda",
     "tags": ["ALL", "Python", "Data Science"]
   },
   {
     "title": "Apple",
     "fullName": "Apple Inc.",
     "description": "Extensive familiarity with the Apple ecosystem and macOS, including significant experience with the Homebrew package manager.",
-    "icon": "https://skillicons.dev/icons?i=apple&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=apple",
     "tags": ["ALL", "OS"]
   },
   {
     "title": "Bash",
     "fullName": "Bourne Again Shell",
     "description": "Highly experienced with terminal environments and proficient in writing advanced Bash scripts.",
-    "icon": "https://skillicons.dev/icons?i=bash&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=bash",
     "tags": ["ALL", "Linux", "HPCC", "Dev Ops"]
   },
   {
@@ -26,7 +26,7 @@
     "description": "Experienced in website hosting, domain management, and email forwarding; this site is hosted using Cloudflare. Check out my Cyber Attack Dashboard that is self-hosted using Cloudflare Tunnels.",
     "link": ["https://cyber-attack-dashboard.kyllan.dev/"],
     "linkName": ["Cyber Attack Dashboard"],
-    "icon": "https://skillicons.dev/icons?i=cloudflare&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=cloudflare",
     "tags": ["ALL", "Web Dev", "Dev Ops"]
   },
   {
@@ -35,14 +35,14 @@
     "description": "Self-taught in CSS, with skills demonstrated on this website and my other projects.",
     "link": ["https://kyllan.dev", "https://breakuptypingtest.com"],
     "linkName": ["This Website", "Breakup Typing Test"],
-    "icon": "https://skillicons.dev/icons?i=css&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=css",
     "tags": ["ALL", "Web Dev"]
   },
   {
     "title": "Debian",
     "fullName": "Debian GNU/Linux",
     "description": "Highly experienced with various Debian distributions and skilled in navigating them.",
-    "icon": "https://skillicons.dev/icons?i=debian&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=debian",
     "tags": ["ALL", "Linux", "OS"]
   },
   {
@@ -51,28 +51,28 @@
     "description": "Extensive experience using Docker for container creation and management over several years. Check out my Dockerized Breakup Typing Test website.",
     "link": ["https://github.com/kyllan16693/breakuptypingtest"],
     "linkName": ["Breakup Typing Test"],
-    "icon": "https://skillicons.dev/icons?i=docker&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=docker",
     "tags": ["ALL", "Linux", "HPCC", "Dev Ops"]
   },
   {
     "title": "Figma",
     "fullName": "Figma",
     "description": "Designed several academic projects using Figma, showcasing strong design skills.",
-    "icon": "https://skillicons.dev/icons?i=figma&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=figma",
     "tags": ["ALL", "Web Dev"]
   },
   {
     "title": "Flask",
     "fullName": "Flask",
     "description": "Worked on multiple projects using Flask, including integrating with EasyBuild hooks.",
-    "icon": "https://skillicons.dev/icons?i=flask&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=flask",
     "tags": ["ALL", "Python", "Web Dev"]
   },
   {
     "title": "Git",
     "fullName": "Git",
     "description": "Over 7 years of experience with Git, using it almost daily.",
-    "icon": "https://skillicons.dev/icons?i=git&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=git",
     "tags": ["ALL", "Web Dev", "HPCC", "Dev Ops"]
   },
   {
@@ -81,21 +81,21 @@
     "description": "Active contributor on GitHub; explore my projects for a deeper insight.",
     "link": ["https://github.com/kyllan16693"],
     "linkName": ["My GitHub"],
-    "icon": "https://skillicons.dev/icons?i=github&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=github",
     "tags": ["ALL", "Web Dev", "Dev Ops"]
   },
   {
     "title": "GitLab",
     "fullName": "GitLab",
     "description": "Over a year of experience with GitLab, primarily at MSU ICER.",
-    "icon": "https://skillicons.dev/icons?i=gitlab&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=gitlab",
     "tags": ["ALL", "HPCC", "Dev Ops"]
   },
   {
     "title": "Grafana",
     "fullName": "Grafana",
     "description": "Experience using Grafana and eager to leverage its capabilities further.",
-    "icon": "https://skillicons.dev/icons?i=grafana&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=grafana",
     "tags": ["ALL", "Data Science", "HPCC"]
   },
   {
@@ -104,7 +104,7 @@
     "description": "Years of experience with HTML; this website serves as a showcase of my expertise.",
     "link": ["https://kyllan.dev", "https://breakuptypingtest.com"],
     "linkName": ["This Website", "Breakup Typing Test"],
-    "icon": "https://skillicons.dev/icons?i=html&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=html",
     "tags": ["ALL", "Web Dev"]
   },
   {
@@ -113,7 +113,7 @@
     "description": "Utilized JavaScript extensively on this website, my graphics projects, and my npx game.",
     "link": ["https://kyllan.dev", "https://www.npmjs.com/package/@kyllan/cs-acronym-jeopardy", "https://kyllan.dev/projects/pi_day/pi.html"],
     "linkName": ["This Website", "My npm Package", "Pi Day"],
-    "icon": "https://skillicons.dev/icons?i=js&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=js",
     "tags": ["ALL", "Web Dev"]
   },
   {
@@ -122,7 +122,7 @@
     "description": "Authored numerous academic papers using LaTeX.",
     "link": ["https://kyllan.dev/projects/pi_day/pi.html", "https://github.com/kyllan16693/flight-delay-prediction/blob/main/Flight_Delay_Prediction_Report.pdf"],
     "linkName": ["Pi Day", "Flight Delay Report"],
-    "icon": "https://skillicons.dev/icons?i=latex&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=latex",
     "tags": ["ALL", "Data Science"]
   },
   {
@@ -131,35 +131,35 @@
     "description": "Active LinkedIn user for professional networking.",
     "link": ["https://www.linkedin.com/in/kyllan-wunder-638b8b27b/"],
     "linkName": ["My LinkedIn"],
-    "icon": "https://skillicons.dev/icons?i=linkedin&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=linkedin",
     "tags": ["ALL"]
   },
   {
     "title": "Linux",
     "fullName": "Linux",
     "description": "Over 10 years of experience with Linux, with extensive familiarity across various distributions.",
-    "icon": "https://skillicons.dev/icons?i=linux&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=linux",
     "tags": ["ALL", "Linux", "OS", "HPCC", "Dev Ops"]
   },
   {
     "title": "Markdown",
     "fullName": "Markdown",
     "description": "Frequently utilize Markdown for academic work and documentation; highly proficient.",
-    "icon": "https://skillicons.dev/icons?i=md&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=md",
     "tags": ["ALL", "Web Dev"]
   },
   {
     "title": "MongoDB",
     "fullName": "MongoDB",
     "description": "Experience with MongoDB and looking forward to applying it more extensively.",
-    "icon": "https://skillicons.dev/icons?i=mongodb&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=mongodb",
     "tags": ["ALL", "Data Science"]
   },
   {
     "title": "MySQL",
     "fullName": "MySQL",
     "description": "Completed an extensive course on MySQL, with a strong understanding of its functionalities.",
-    "icon": "https://skillicons.dev/icons?i=mysql&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=mysql",
     "tags": ["ALL", "Data Science"]
   },
   {
@@ -168,14 +168,14 @@
     "description": "Actively exploring npm; developed a game using npx.",
     "link": ["https://www.npmjs.com/package/@kyllan/cs-acronym-jeopardy"],
     "linkName": ["My npm Package"],
-    "icon": "https://skillicons.dev/icons?i=npm&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=npm",
     "tags": ["ALL", "Web Dev"]
   },
   {
     "title": "Python",
     "fullName": "Python",
     "description": "Python is my preferred language, with over 6 years of daily usage and a deep familiarity with its ecosystem.",
-    "icon": "https://skillicons.dev/icons?i=python&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=python",
     "tags": ["ALL", "Python", "Data Science", "HPCC"]
   },
   {
@@ -184,7 +184,7 @@
     "description": "Extensive experience with PyTorch across various projects.",
     "link": ["https://github.com/kyllan16693/flight-delay-prediction"],
     "linkName": ["Flight Delay Prediction"],
-    "icon": "https://skillicons.dev/icons?i=pytorch&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=pytorch",
     "tags": ["ALL", "Python", "Data Science"]
   },
   {
@@ -193,49 +193,49 @@
     "description": "Authored a complete R package and possess significant expertise in R.",
     "link": ["https://github.com/UW-Madison-DSI/Covid19Wastewater"],
     "linkName": ["R Package"],
-    "icon": "https://skillicons.dev/icons?i=r&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=r",
     "tags": ["ALL", "Data Science"]
   },
   {
     "title": "Raspberry Pi",
     "fullName": "Raspberry Pi",
     "description": "Extensive experience with Raspberry Pi, completing projects such as a magic mirror, Pi-hole, and NAS. See more on my projects page.",
-    "icon": "https://skillicons.dev/icons?i=raspberrypi&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=raspberrypi",
     "tags": ["ALL", "Linux", "OS"]
   },
   {
     "title": "Redis",
     "fullName": "Redis",
     "description": "Experience using Redis as a backend for Flask and EasyBuild hooks.",
-    "icon": "https://skillicons.dev/icons?i=redis&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=redis",
     "tags": ["ALL", "Python", "Web Dev"]
   },
   {
     "title": "Regex",
     "fullName": "Regular Expressions",
     "description": "Proficient with regular expressions; even though it's annoying.",
-    "icon": "https://skillicons.dev/icons?i=regex&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=regex",
     "tags": ["ALL", "Web Dev", "Python"]
   },
   {
     "title": "SQLite",
     "fullName": "SQLite",
     "description": "Hands-on experience with SQLite, with plans to utilize it more in future projects.",
-    "icon": "https://skillicons.dev/icons?i=sqlite&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=sqlite",
     "tags": ["ALL", "Data Science"]
   },
   {
     "title": "SVG",
     "fullName": "Scalable Vector Graphics",
     "description": "My favorite image format! very familiar with SVG and its capabilities.",
-    "icon": "https://skillicons.dev/icons?i=svg&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=svg",
     "tags": ["ALL", "Web Dev"]
   },
   {
     "title": "Swift",
     "fullName": "Swift",
     "description": "Developed several projects in Swift.",
-    "icon": "https://skillicons.dev/icons?i=swift&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=swift",
     "tags": ["ALL"]
   },
   {
@@ -244,35 +244,35 @@
     "description": "Extensive experience using TensorFlow in multiple projects; I find it highly enjoyable to work with.",
     "link": ["https://github.com/kyllan16693/flight-delay-prediction"],
     "linkName": ["Flight Delay Prediction"],
-    "icon": "https://skillicons.dev/icons?i=tensorflow&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=tensorflow",
     "tags": ["ALL", "Python", "Data Science"]
   },
   {
     "title": "Ubuntu",
     "fullName": "Ubuntu",
     "description": "Ubuntu is my primary Linux distribution; highly familiar with its configuration and usage.",
-    "icon": "https://skillicons.dev/icons?i=ubuntu&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=ubuntu",
     "tags": ["ALL", "Linux", "OS", "HPCC"]
   },
   {
     "title": "Unity",
     "fullName": "Unity Game Engine",
     "description": "Developed several games using Unity and looking forward to using it more.",
-    "icon": "https://skillicons.dev/icons?i=unity&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=unity",
     "tags": ["ALL"]
   },
   {
     "title": "VSCode",
     "fullName": "Visual Studio Code",
     "description": "My preferred code editor, offering versatility and extensibility.",
-    "icon": "https://skillicons.dev/icons?i=vscode&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=vscode",
     "tags": ["ALL"]
   },
   {
     "title": "Windows",
     "fullName": "Microsoft Windows",
     "description": "Very familiar with Windows, though I prefer other operating systems that don't spy on me or have ads.",
-    "icon": "https://skillicons.dev/icons?i=windows&theme=dark",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=windows",
     "tags": ["ALL", "OS"]
   }
 ]

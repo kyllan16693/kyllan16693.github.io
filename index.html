@@ -98,7 +98,8 @@
     
                     const iconList = section.icons.join(',');
                     const imgElement = document.createElement('img');
-                    imgElement.src = `https://skillicons.dev/icons?i=${iconList}`;
+                    //imgElement.src = `https://skillicons.dev/icons?i=${iconList}`;
+                    imgElement.src = `https://skills-icons.vercel.app/api/icons?i=${iconList}`;
                     imgElement.alt = 'skills';
                     imgElement.className = 'centered-and-scaled-icons';
     
