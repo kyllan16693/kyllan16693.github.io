@@ -409,6 +409,13 @@
     "linkName": ["Cyber Attack Dashboard"],
     "icon": "https://skills-icons.vercel.app/api/icons?i=streamlit",
     "tags": ["ALL", "Web Dev", "Python", "Dev Ops"]
+  },
+  {
+    "title": "Keras",
+    "fullName": "Keras",
+    "description": "A very useful python package, I have used it a few times and am familiar with it.",
+    "icon": "https://skills-icons.vercel.app/api/icons?i=keras",
+    "tags": ["ALL", "Python", "Data Science"]
   }
   
 ]
