@@ -1,6 +1,11 @@
 {
     "sections": [
       {
+        "paragraph": "MSDS Capstone Project: Using machine learning to predict how long a patient visit will take, 50% improvement in prediction accuracy! <a href='../documents/Henry-Ford-Poster.pdf'>Poster</a>",
+        "icons": ["python", "git", "github", "pandas", "pytorch", "scikitlearn", "keras", "markdown", "latex"],
+        "date": "May 2025"
+      },
+      {
         "paragraph": "Deploying local LLM tools for researchers to use at MSU ICER: [Not publicly available]",
         "icons": ["git", "gitlab", "openondemand", "singularity", "easybuild", "ollama", "openwebui", "lmstudio", "huggingface"],
         "date": "February 2025"
