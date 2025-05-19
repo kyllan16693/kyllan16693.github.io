@@ -6,6 +6,11 @@
         "date": "May 2025"
       },
       {
+        "paragraph": "ColonyCluster: A simulation of ant colonies to show the power of cluster computing <a href='https://github.com/kyllan16693/ColonyCluster/tree/main'>Repo</a>",
+        "icons": ["python", "raspberrypi", "git", "github", "bash", "ansible", "debian"],
+        "date": "May 2025"
+      },
+      {
         "paragraph": "Deploying local LLM tools for researchers to use at MSU ICER: [Not publicly available]",
         "icons": ["git", "gitlab", "openondemand", "singularity", "easybuild", "ollama", "openwebui", "lmstudio", "huggingface"],
         "date": "February 2025"
